@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+<CHAPTER ID="1"><P id="1">
+<s id="1">
+ <w lem="reprendre" id="w1.1" pos="VER:pper">Reprise</w>
+ <w lem="de" id="w1.2" pos="PRP">de</w>
+ <w lem="le" id="w1.3" pos="DET:ART">la</w>
+ <w lem="session" id="w1.4" pos="NOM">session</w>
+</s></P><SPEAKER ID="1" NAME="La Présidente"><P id="2">
+<s id="2">
+ <w lem="je" id="w2.1" pos="PRO:PER">Je</w>
+ <w lem="déclarer" id="w2.2" pos="VER:subp">déclare</w>
+ <w lem="reprendre" id="w2.3" pos="VER:pper">reprise</w>
+ <w lem="le" id="w2.4" pos="DET:ART">la</w>
+ <w lem="session" id="w2.5" pos="NOM">session</w>
+ <w lem="du" id="w2.6" pos="PRP:det">du</w>
+ <w lem="parlement" id="w2.7" pos="NOM">Parlement</w>
+ <w lem="européen" id="w2.8" pos="ADJ">européen</w>
+ <w lem="qui" id="w2.9" pos="PRO:REL">qui</w>
+ <w lem="avoir" id="w2.10" pos="VER:impf">avait</w>
+ <w lem="être" id="w2.11" pos="VER:pper">été</w>
+ <w lem="interrompre" id="w2.12" pos="VER:pper">interrompue</w>
+ <w lem="le" id="w2.13" pos="DET:ART">le</w>
+ <w lem="vendredi" id="w2.14" pos="NOM">vendredi</w>
+ <w lem="@card@" id="w2.15" pos="NUM">17</w>
+ <w lem="décembre" id="w2.16" pos="NOM">décembre</w>
+ <w lem="dernier" id="w2.17" pos="ADJ">dernier</w>
+ <w lem="et" id="w2.18" pos="KON">et</w>
+ <w lem="je" id="w2.19" pos="PRO:PER">je</w>
+ <w lem="vous" id="w2.20" pos="PRO:PER">vous</w>
+ <w lem="renouveler" id="w2.21" pos="VER:pres">renouvelle</w>
+ <w lem="tout" id="w2.22" pos="PRO:IND">tous</w>
+ <w lem="mon" id="w2.23" pos="DET:POS">mes</w>
+ <w id="w2.24" pos="NOM">vux</w>
+ <w lem="en" id="w2.25" pos="PRP">en</w>
+ <w lem="espérer" id="w2.26" pos="VER:ppre">espérant</w>
+ <w lem="que" id="w2.27" pos="KON">que</w>
+<w lem="vous" id="w2.28" pos="PRO:PER">vous</w>
+ <w lem="avoir" id="w2.29" pos="VER:pres">avez</w>
+ <w lem="passer" id="w2.30" pos="VER:pper">passé</w>
+ <w lem="de" id="w2.31" pos="PRP">de</w>
+ <w lem="bon" id="w2.32" pos="ADJ">bonnes</w>
+ <w lem="vacance" id="w2.33" pos="NOM">vacances</w>
+ <w lem="." id="w2.34" pos="SENT">.</w>
+</s></P><P id="3">
+<s id="3">
+ <w lem="comme" id="w3.1" pos="KON">Comme</w>
+ <w lem="vous" id="w3.2" pos="PRO:PER">vous</w>
+ <w lem="avoir" id="w3.3" pos="VER:pres">avez</w>
+ <w lem="pouvoir" id="w3.4" pos="VER:pper">pu</w>
+ <w lem="le" id="w3.5" pos="PRO:PER">le</w>
+ <w lem="constater" id="w3.6" pos="VER:infi">constater</w>
+ <w lem="," id="w3.7" pos="PUN">,</w>
+ <w lem="le" id="w3.8" pos="DET:ART">le</w>
+ <w lem="grand" id="w3.9" pos="ADJ">grand</w>
+ <w lem="&quot;" id="w3.10" pos="PUN:cit">"</w>
+ <w lem="bogue" id="w3.11" pos="NOM">bogue</w>
+ <w lem="de" id="w3.12" pos="PRP">de</w>
+ <w lem="le" id="w3.13" pos="DET:ART">l'</w>
+ <w lem="an" id="w3.14" pos="NOM">an</w>
+ <w lem="@card@" id="w3.15" pos="NUM">2000</w>
+ <w lem="&quot;" id="w3.16" pos="PUN:cit">"</w>
+ <w lem="ne" id="w3.17" pos="ADV">ne</w>
+ <w lem="se" id="w3.18" pos="PRO:PER">s'</w>
+ <w lem="être" id="w3.19" pos="VER:pres">est</w>
+ <w lem="pas" id="w3.20" pos="ADV">pas</w>
+ <w lem="produire" id="w3.21" pos="VER:pper">produit</w>
+ <w lem="." id="w3.22" pos="SENT">.</w>
+</s>
+<s id="4">
+ <w lem="en" id="w4.1" pos="PRP">En</w>
+ <w lem="revanche" id="w4.2" pos="NOM">revanche</w>
+ <w lem="," id="w4.3" pos="PUN">,</w>
+ <w lem="le" id="w4.4" pos="DET:ART">les</w>
+ <w lem="citoyen" id="w4.5" pos="NOM">citoyens</w>
+ <w lem="de" id="w4.6" pos="PRP">d'</w>
+ <w lem="un" id="w4.7" pos="DET:ART">un</w>
+ <w lem="certain" id="w4.8" pos="PRO:IND">certain</w>
+ <w lem="nombre" id="w4.9" pos="NOM">nombre</w>
+ <w lem="de" id="w4.10" pos="PRP">de</w>
+ <w lem="notre" id="w4.11" pos="DET:POS">nos</w>
+ <w lem="pays" id="w4.12" pos="NOM">pays</w>
+ <w lem="avoir" id="w4.13" pos="VER:pres">ont</w>
+ <w lem="être" id="w4.14" pos="VER:pper">été</w>
+ <w lem="victime" id="w4.15" pos="NOM">victimes</w>
+ <w lem="de" id="w4.16" pos="PRP">de</w>
+ <w lem="catastrophe" id="w4.17" pos="NOM">catastrophes</w>
+ <w lem="naturel" id="w4.18" pos="ADJ">naturelles</w>
+ <w lem="qui" id="w4.19" pos="PRO:REL">qui</w>
+ <w lem="avoir" id="w4.20" pos="VER:pres">ont</w>
+ <w lem="vraiment" id="w4.21" pos="ADV">vraiment</w>
+ <w lem="être" id="w4.22" pos="VER:pper">été</w>
+ <w lem="terrible" id="w4.23" pos="ADJ">terribles</w>
+ <w lem="." id="w4.24" pos="SENT">.</w>
+</s>
+</P>
+</SPEAKER>
+</CHAPTER>
+</document>

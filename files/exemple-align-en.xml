@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+<CHAPTER ID="1"><P id="1">
+<s id="1">
+ <chunk type="NP" id="c-1">
+  <w grok="NN" tree="NN" tnt="NN" lem="resumption" id="w1.1">Resumption</w>
+ </chunk>
+ <chunk type="PP" id="c-2">
+  <w grok="IN" tree="IN" tnt="IN" lem="of" id="w1.2">of</w>
+ </chunk>
+ <chunk type="NP" id="c-3">
+  <w grok="DT" tree="DT" tnt="DT" lem="the" id="w1.3">the</w>
+  <w grok="NN" tree="NN" tnt="NN" lem="session" id="w1.4">session</w>
+ </chunk>
+</s></P><SPEAKER ID="1" NAME="President"><P id="2">
+<s id="2">
+ <chunk type="NP" id="c-1">
+  <w grok="PRP" tree="PP" tnt="PRP" lem="I" id="w2.1">I</w>
+ </chunk>
+ <chunk type="VP" id="c-2">
+  <w grok="RB" tree="VVP" tnt="VBP" lem="declare" id="w2.2">declare</w>
+  <w grok="VBD" tree="VVD" tnt="VBN" lem="resume" id="w2.3">resumed</w>
+ </chunk>
+ <chunk type="NP" id="c-3">
+  <w grok="DT" tree="DT" tnt="DT" lem="the" id="w2.4">the</w>
+  <w grok="NN" tree="NN" tnt="NN" lem="session" id="w2.5">session</w>
+ </chunk>
+ <chunk type="PP" id="c-4">
+  <w grok="IN" tree="IN" tnt="IN" lem="of" id="w2.6">of</w>
+ </chunk>
+ <chunk type="NP" id="c-5">
+  <w grok="DT" tree="DT" tnt="DT" lem="the" id="w2.7">the</w>
+  <w grok="NNP" tree="NP" tnt="NNP" lem="European" id="w2.8">European</w>
+  <w grok="NNP" tree="NP" tnt="NNP" lem="Parliament" id="w2.9">Parliament</w>
+ </chunk>
+ <chunk type="VP" id="c-6">
+  <w grok="VBD" tree="VVN" tnt="VBN" lem="adjourn" id="w2.10">adjourned</w>
+ </chunk>
+ <chunk type="PP" id="c-7">
+<w grok="IN" tree="IN" tnt="IN" lem="on" id="w2.11">on</w>
+ </chunk>
+ <chunk type="NP" id="c-8">
+  <w grok="NNP" tree="NP" tnt="NNP" lem="Friday" id="w2.12">Friday</w>
+  <w grok="CD" tree="CD" tnt="CD" lem="@card@" id="w2.13">17</w>
+  <w grok="NNP" tree="NP" tnt="NNP" lem="December" id="w2.14">December</w>
+  <w grok="CD" tree="CD" tnt="CD" lem="@card@" id="w2.15">1999</w>
+ </chunk>
+ <w grok="," tree="," tnt="," lem="," id="w2.16">,</w>
+ <w grok="CC" tree="CC" tnt="CC" lem="and" id="w2.17">and</w>
+ <chunk type="NP" id="c-11">
+  <w grok="PRP" tree="PP" tnt="PRP" lem="I" id="w2.18">I</w>
+ </chunk>
+ <chunk type="VP" id="c-12">
+  <w grok="MD" tree="MD" tnt="MD" lem="would" id="w2.19">would</w>
+  <w grok="VB" tree="VV" tnt="VB" lem="like" id="w2.20">like</w>
+ </chunk>
+ <chunk type="ADVP" id="c-13">
+  <w grok="RB" tree="RB" tnt="RB" lem="once" id="w2.21">once</w>
+  <w grok="RB" tree="RB" tnt="RB" lem="again" id="w2.22">again</w>
+ </chunk>
+ <chunk type="VP" id="c-14">
+  <w grok="TO" tree="TO" tnt="TO" lem="to" id="w2.23">to</w>
+  <w grok="VB" tree="VV" tnt="VB" lem="wish" id="w2.24">wish</w>
+ </chunk>
+ <chunk type="NP" id="c-15">
+  <w grok="PRP" tree="PP" tnt="PRP" lem="you" id="w2.25">you</w>
+ </chunk>
+ <chunk type="NP" id="c-16">
+  <w grok="VBP" tree="DT" tnt="DT" lem="a" id="w2.26">a</w>
+ </chunk>
+ <chunk type="ADJP" id="c-17">
+  <w grok="JJ" tree="JJ" tnt="JJ" lem="happy" id="w2.27">happy</w>
+ </chunk>
+ <chunk type="NP" id="c-18">
+  <w grok="JJ" tree="JJ" tnt="JJ" lem="new" id="w2.28">new</w>
+  <w grok="NN" tree="NN" tnt="NN" lem="year" id="w2.29">year</w>
+ </chunk>
+ <chunk type="PP" id="c-19">
+<w grok="IN" tree="IN" tnt="IN" lem="in" id="w2.30">in</w>
+ </chunk>
+ <chunk type="NP" id="c-20">
+  <w grok="DT" tree="DT" tnt="DT" lem="the" id="w2.31">the</w>
+  <w grok="NN" tree="NN" tnt="NN" lem="hope" id="w2.32">hope</w>
+ </chunk>
+ <chunk type="SBAR" id="c-21">
+  <w grok="IN" tree="IN/that" tnt="IN" lem="that" id="w2.33">that</w>
+ </chunk>
+ <chunk type="NP" id="c-22">
+  <w grok="PRP" tree="PP" tnt="PRP" lem="you" id="w2.34">you</w>
+ </chunk>
+ <chunk type="VP" id="c-23">
+  <w grok="VBD" tree="VVD" tnt="VBD" lem="enjoy" id="w2.35">enjoyed</w>
+ </chunk>
+ <chunk type="NP" id="c-24">
+  <w grok="DT" tree="DT" tnt="DT" lem="a" id="w2.36">a</w>
+  <w grok="JJ" tree="JJ" tnt="JJ" lem="pleasant" id="w2.37">pleasant</w>
+  <w grok="NN" tree="JJ" tnt="JJ" lem="festive" id="w2.38">festive</w>
+  <w grok="NN" tree="NN" tnt="NN" lem="period" id="w2.39">period</w>
+ </chunk>
+ <w grok="." tree="SENT" tnt="." lem="." id="w2.40">.</w>
+</s></P><P id="3">
+<s id="3">
+ <chunk type="SBAR" id="c-1">
+  <w grok="NNP" tree="IN" tnt="IN" lem="although" id="w3.1">Although</w>
+ </chunk>
+ <w grok="," tree="," tnt="," lem="," id="w3.2">,</w>
+ <chunk type="SBAR" id="c-3">
+  <w grok="IN" tree="IN" tnt="IN" lem="as" id="w3.3">as</w>
+ </chunk>
+ <chunk type="NP" id="c-4">
+  <w grok="PRP" tree="PP" tnt="PRP" lem="you" id="w3.4">you</w>
+ </chunk>
+ <chunk type="VP" id="c-5">
+  <w grok="MD" tree="MD" tnt="MD" lem="will" id="w3.5">will</w>
+  <w grok="VB" tree="VH" tnt="VB" lem="have" id="w3.6">have</w>
+  <w grok="VBN" tree="VVN" tnt="VBN" lem="see" id="w3.7">seen</w>
+ </chunk>
+ <w grok="," tree="," tnt="," lem="," id="w3.8">,</w>
+<chunk type="NP" id="c-7">
+  <w grok="DT" tree="DT" tnt="DT" lem="the" id="w3.9">the</w>
+  <w grok="JJ" tree="JJ" tnt="JJ" lem="dreaded" id="w3.10">dreaded</w>
+  <w grok="NN" tree="NN" tnt="NN" id="w3.11">'millennium</w>
+  <w grok="NN" tree="NN" tnt="NN" lem="bug" id="w3.12">bug</w>
+ </chunk>
+ <chunk type="NP" id="c-8">
+  <w grok="''" tree="POS" tnt="POS" lem="'" id="w3.13">'</w>
+ </chunk>
+ <chunk type="VP" id="c-9">
+  <w grok="VBD" tree="VVN" tnt="VBN" lem="fail" id="w3.14">failed</w>
+  <w grok="TO" tree="TO" tnt="TO" lem="to" id="w3.15">to</w>
+  <w grok="VB" tree="VV" tnt="VB" lem="materialise" id="w3.16">materialise</w>
+ </chunk>
+ <w grok="," tree="," tnt="," lem="," id="w3.17">,</w>
+ <chunk type="ADVP" id="c-11">
+  <w grok="RB" tree="RB" tnt="RB" lem="still" id="w3.18">still</w>
+ </chunk>
+ <chunk type="NP" id="c-12">
+  <w grok="DT" tree="DT" tnt="DT" lem="the" id="w3.19">the</w>
+  <w grok="NNS" tree="NNS" tnt="NNS" lem="people" id="w3.20">people</w>
+ </chunk>
+ <chunk type="PP" id="c-13">
+  <w grok="IN" tree="IN" tnt="IN" lem="in" id="w3.21">in</w>
+ </chunk>
+ <chunk type="NP" id="c-14">
+  <w grok="DT" tree="DT" tnt="DT" lem="a" id="w3.22">a</w>
+  <w grok="NN" tree="NN" tnt="NN" lem="number" id="w3.23">number</w>
+ </chunk>
+ <chunk type="PP" id="c-15">
+  <w grok="IN" tree="IN" tnt="IN" lem="of" id="w3.24">of</w>
+ </chunk>
+ <chunk type="NP" id="c-16">
+  <w grok="NNS" tree="NNS" tnt="NNS" lem="country" id="w3.25">countries</w>
+ </chunk>
+ <chunk type="VP" id="c-17">
+  <w grok="VBD" tree="VVD" tnt="VBD" lem="suffer" id="w3.26">suffered</w>
+ </chunk>
+ <chunk type="NP" id="c-18">
+  <w grok="DT" tree="DT" tnt="DT" lem="a" id="w3.27">a</w>
+<w grok="NN" tree="NN" tnt="NN" lem="series" id="w3.28">series</w>
+ </chunk>
+ <chunk type="PP" id="c-19">
+  <w grok="IN" tree="IN" tnt="IN" lem="of" id="w3.29">of</w>
+ </chunk>
+ <chunk type="NP" id="c-20">
+  <w grok="JJ" tree="JJ" tnt="JJ" lem="natural" id="w3.30">natural</w>
+  <w grok="NNS" tree="NNS" tnt="NNS" lem="disaster" id="w3.31">disasters</w>
+ </chunk>
+ <chunk type="PP" id="c-21">
+  <w grok="WDT" tree="WDT" tnt="IN" lem="that" id="w3.32">that</w>
+ </chunk>
+ <chunk type="NP" id="c-22">
+  <w grok="RB" tree="RB" tnt="RB" lem="truly" id="w3.33">truly</w>
+ </chunk>
+ <chunk type="VP" id="c-23">
+  <w grok="VBD" tree="VBD" tnt="VBD" lem="be" id="w3.34">were</w>
+ </chunk>
+ <chunk type="ADJP" id="c-24">
+  <w grok="JJ" tree="JJ" tnt="JJ" lem="dreadful" id="w3.35">dreadful</w>
+ </chunk>
+ <w grok="." tree="SENT" tnt="." lem="." id="w3.36">.</w>
+</s>
+</P><P id="399"></P></SPEAKER></CHAPTER></document>

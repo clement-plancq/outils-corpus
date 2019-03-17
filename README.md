@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Outils de traitement de corpus — Master Plurital
 
-You can use the [editor on GitHub](https://github.com/clement-plancq/outils-corpus/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Pratique
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+6 séances les lundis de 9h à 12h dans l'amphi 5 de l'INALCO, PLC, 65 rue des grands moulins, 75013 Paris.
 
-### Markdown
+### Évaluation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Un devoir à rendre après chaque séance. La note finale sera la moyenne des notes.
 
-```markdown
-Syntax highlighted code block
+### Séances
 
-# Header 1
-## Header 2
-### Header 3
+#### 18 mars 2019
+* [intro, définitions](outils_corpus-1.pdf)
+* [formats d'annotations, outils de requêtes](outils_corpus-2.html)
 
-- Bulleted
-- List
+devoir : trouver 3 corpus et les définir avec les 6 critères vus en cours
 
-1. Numbered
-2. List
+[Kafka_metamorphosis](files/kafka-metamorphosis_gutenberg.txt)
 
-**Bold** and _Italic_ and `Code` text
+[Kafka_metamorphosis treetagger](files/kafka-metamorphosis_gutenberg_treetagger.txt)
 
-[Link](url) and ![Image](src)
-```
+#### 25 mars 2019
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### 1er avril 2019
 
-### Jekyll Themes
+#### 8 avril 2019
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/clement-plancq/outils-corpus/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### 15 avril 2019
 
-### Support or Contact
+#### 6 mai 2019
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Références
+
+  * Tony McEnery and Andrew Wilson. Corpus  Linguistics. Edinburgh: Edinburgh University Press, 2001 (second edition).
+  * Céline Poudat et Frédéric Landragin. Explorer un corpus textuel : Méthodes – pratiques – outils. De Boeck Supérieur, 2017.
+  * Daniel Jurafsky and James H. Martin.Speech and Language Processing. Pearson, 2008 (second edition). [pdfs de la troisième édition en cours](https://web.stanford.edu/~jurafsky/slp3/)
+  * [Lecture Slides from the Stanford Coursera course by Dan Jurafsky and Christopher Manning](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)

@@ -1,0 +1,1 @@
+(TOP   (NP  (D Les)   (A nouveaux)   (N dirigeants)  )  (VN  (V donnent)  )  (NP (D l')   (N impression)   (VPinf  (P d')   (VN  (V  (V avoir)   (D du)   (N mal)  )  )  (VPinf  (P à)   (VN  (V tenir)  )  (PP  (P en)   (NP  (N main)  ) )  (NP  (D leurs)   (N troupes)  ) ) ) )  (PONCT .)  )   

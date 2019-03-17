@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s id="flmf300_13000ep-40">
+ <graph root="flmf300_13000ep-40_1012">
+  <terminals>
+    <t id="flmf300_13000ep-40_1" word="Les" pos="D" lemma="le" num="p" subcat="def" gen="m"/>
+    <t id="flmf300_13000ep-40_2" word="nouveaux" pos="A" lemma="nouveau" num="p" subcat="qual" gen="m"/>
+    <t id="flmf300_13000ep-40_3" word="dirigeants" pos="N" lemma="dirigeant" num="p" subcat="c" gen="m"/>
+    <t id="flmf300_13000ep-40_4" word="donnent" pos="V" pers="3" lemma="donner" num="p" tense="pst" mood="ind"/>
+    <t id="flmf300_13000ep-40_5" word="l'" pos="D" lemma="le" num="s" subcat="def" gen="f"/>
+    <t id="flmf300_13000ep-40_6" word="impression" pos="N" lemma="impression" num="s" subcat="c" gen="f"/>
+    <t id="flmf300_13000ep-40_7" word="d'" pos="P" lemma="de"/>
+    <t id="flmf300_13000ep-40_8" word="avoir" pos="V" catint="V"/>
+    <t id="flmf300_13000ep-40_9" word="du" pos="D" catint="D"/>
+    <t id="flmf300_13000ep-40_10" word="mal" pos="N" catint="N"/>
+    <t id="flmf300_13000ep-40_11" word="à" pos="P" lemma="à"/>
+    <t id="flmf300_13000ep-40_12" word="tenir" pos="V" lemma="tenir" mood="inf"/>
+    <t id="flmf300_13000ep-40_13" word="en" pos="P" lemma="en"/>
+    <t id="flmf300_13000ep-40_14" word="main" pos="N" lemma="main" num="s" subcat="c" gen="f"/>
+    <t id="flmf300_13000ep-40_15" word="leurs" pos="D" pers="3" lemma="son" num="p" subcat="poss" gen="f"/>
+    <t id="flmf300_13000ep-40_16" word="troupes" pos="N" lemma="troupe" num="p" subcat="c" gen="f"/>
+    <t id="flmf300_13000ep-40_17" word="." pos="PONCT" lemma="." subcat="s"/>
+  </terminals>
+  <nonterminals>
+    <nt id="flmf300_13000ep-40_1001" cat="NP" fct="SUJ">
+      <edge label="--" idref="flmf300_13000ep-40_1"/>
+      <edge label="--" idref="flmf300_13000ep-40_2"/>
+      <edge label="--" idref="flmf300_13000ep-40_3"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1002" cat="VN" fct="">
+      <edge label="--" idref="flmf300_13000ep-40_4"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1003" cat="V" lemma="avoir_du_mal" mood="inf">
+      <edge label="--" idref="flmf300_13000ep-40_8"/>
+      <edge label="--" idref="flmf300_13000ep-40_9"/>
+      <edge label="--" idref="flmf300_13000ep-40_10"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1004" cat="VN" fct="">
+      <edge label="--" idref="flmf300_13000ep-40_1003"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1005" cat="VN" fct="">
+      <edge label="--" idref="flmf300_13000ep-40_12"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1006" cat="NP" fct="">
+      <edge label="--" idref="flmf300_13000ep-40_14"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1007" cat="PP" fct="MOD">
+      <edge label="--" idref="flmf300_13000ep-40_13"/>
+      <edge label="--" idref="flmf300_13000ep-40_1006"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1008" cat="NP" fct="OBJ">
+      <edge label="--" idref="flmf300_13000ep-40_15"/>
+      <edge label="--" idref="flmf300_13000ep-40_16"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1009" cat="VPinf" fct="A_OBJ">
+      <edge label="--" idref="flmf300_13000ep-40_11"/>
+      <edge label="--" idref="flmf300_13000ep-40_1005"/>
+      <edge label="MOD" idref="flmf300_13000ep-40_1007"/>
+      <edge label="OBJ" idref="flmf300_13000ep-40_1008"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1010" cat="VPinf" fct="">
+      <edge label="--" idref="flmf300_13000ep-40_7"/>
+      <edge label="--" idref="flmf300_13000ep-40_1004"/>
+      <edge label="A_OBJ" idref="flmf300_13000ep-40_1009"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1011" cat="NP" fct="OBJ">
+      <edge label="--" idref="flmf300_13000ep-40_5"/>
+      <edge label="--" idref="flmf300_13000ep-40_6"/>
+      <edge label="--" idref="flmf300_13000ep-40_1010"/>
+    </nt>
+    <nt id="flmf300_13000ep-40_1012" cat="SENT" fct="">
+      <edge label="SUJ" idref="flmf300_13000ep-40_1001"/>
+      <edge label="--" idref="flmf300_13000ep-40_1002"/>
+      <edge label="OBJ" idref="flmf300_13000ep-40_1011"/>
+      <edge label="--" idref="flmf300_13000ep-40_17"/>
+    </nt>
+  </nonterminals>
+ </graph>
+</s>

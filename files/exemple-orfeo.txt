@@ -1,0 +1,16 @@
+1	eh	eh	INT	INT	_	0	ROOT	_	_
+2	oui	oui	INT	INT	_	0	ROOT	_	_
+3	on	on	CLS	CLS	_	5	SUJ	_	_ _
+4	est	être	VRB	VRB	_	5	AUX	_	_
+5	arrivé	arriver	VPP	VPP	_	0	ROOT	_	_
+6	dans	dans	PRE	PRE	_	5	COMP	_	_
+7	les	la	DET	DET	_	8	SPEC	_	_
+8	derniers	dernier	ADJ	ADJ	_	6	COMP	_ _
+9	on	on	CLS	CLS	_	10	SUJ	_	_
+10	a	avoir	VRB	VRB	_	0	ROOT	_	_
+11	quand	quand	CSU	CSU	_	10	COMP	_	_
+12	même	même	ADV	ADV	_	13	COMP	_	_
+13	eu	avoir	VPP	VPP	_	11	COMP	_	_
+14	une	un	DET	DET	_	16	SPEC	_	_
+15	bonne	bon	ADJ	ADJ	_	16	COMP	_	_
+16	place	place	NOM	NOM	_	13	COMP	_	_

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tmx version="1.4">
+<header creationdate="Mon Sep 16 10:29:40 2013"
+          srclang="en"
+          adminlang="en"
+          o-tmf="unknown"
+          segtype="sentence"
+          creationtool="Uplug"
+          creationtoolversion="unknown"
+          datatype="PlainText" />
+  <body>
+    <tu>
+      <tuv xml:lang="en"><seg>I declare resumed the session of the European Parliament adjourned on Friday 17 December 1999, and I would like once again to wish you a happy new year in the hope that you enjoyed a pleasant festive period.</seg></tuv>
+      <tuv xml:lang="fr"><seg>Je déclare reprise la session du Parlement européen qui avait été interrompue le vendredi 17 décembre dernier et je vous renouvelle tous mes vux en espérant que vous avez passé de bonnes vacances.</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>Although, as you will have seen, the dreaded 'millennium bug' failed to materialise, still the people in a number of countries suffered a series of natural disasters that truly were dreadful.</seg></tuv>
+      <tuv xml:lang="fr"><seg>Comme vous avez pu le constater, le grand "bogue de l'an 2000" ne s'est pas produit.En revanche, les citoyens d'un certain nombre de nos pays ont été victimes de catastrophes naturelles qui ont vraiment été terribles.</seg></tuv>
+    </tu>
+    </body>
+</tmx>

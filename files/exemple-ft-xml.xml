@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SENT nb="40" textID="1106" date="1990-01-00" author="LEMONDE">
+    <NP fct="SUJ"> <w cat="D" ee="D-def-mp" ei="Dmp" lemma="le" mph="mp" subcat="def">Les</w> <w cat="A" ee="A-qual-mp" ei="Amp" lemma="nouveau" mph="mp" subcat="qual">nouveaux</w> <w cat="N" ee="N-C-mp" ei="NCmp" lemma="dirigeant" mph="mp" subcat="C">dirigeants</w> </NP>
+    <VN> <w cat="V" ee="V--P3p" ei="VP3p" lemma="donner" mph="P3p" subcat=""> donnent</w> </VN>
+    <NP fct="OBJ">
+<w cat="D" ee="D-def-fs" ei="Dfs" lemma="le" mph="fs" subcat="def">l'</w> <w cat="N" ee="N-C-fs" ei="NCfs" lemma="impression" mph="fs" subcat="C">impression</w>
+	<VPinf>
+	    <w cat="P" ee="P" ei="P" lemma="de">d'</w>
+	    <VN> <w cat="V" ee="V--W" ei="VW" lemma="avoir du mal" mph="W" subcat=""> <w catint="V">avoir</w> <w catint="D">du</w> <w catint="N">mal</w> </w> </VN>
+	    <VPinf fct="A-OBJ">
+		<w cat="P" ee="P" ei="P" lemma="à">à</w>
+		<VN> <w cat="V" ee="V--W" ei="VW" lemma="tenir" mph="W" subcat="">tenir</w> </VN>
+		<PP fct="MOD"> <w cat="P" ee="P" ei="P" lemma="en">en</w> <NP> <w cat="N" ee="N-C-fs" ei="NCfs" lemma="main" mph="fs" subcat="C">main</w> </NP> </PP>
+		<NP fct="OBJ"> <w cat="D" ee="D-poss-3fpp" ei="Dfp" lemma="son" mph="3fpp" subcat="poss">leurs</w> <w cat="N" ee="N-C-fp" ei="NCfp" lemma="troupe" mph="fp" subcat="C">troupes</w> </NP>
+	    </VPinf>
+	</VPinf>
+    </NP>
+    <w cat="PONCT" ee="PONCT-S" ei="PONCTS" lemma="." subcat="S">.</w>
+</SENT> 
