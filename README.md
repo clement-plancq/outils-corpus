@@ -1,36 +1,38 @@
-## Outils de traitement de corpus — Master Plurital
+# Outils de traitement de corpus — Master Plurital
 
-### Pratique
+## Pratique
 
 6 séances les lundis de 9h à 12h dans l'amphi 5 de l'INALCO, PLC, 65 rue des grands moulins, 75013 Paris.
 
-### Évaluation
+## Évaluation
 
 Un devoir à rendre après chaque séance. La note finale sera la moyenne des notes.
 
-### Séances
+## Séances
 
-#### 18 mars 2019
+### 18 mars 2019
 * [intro, définitions](outils_corpus-1.pdf)
 * [formats d'annotations, outils de requêtes](outils_corpus-2.html)
 
-devoir : trouver 3 corpus et les définir avec les 6 critères vus en cours
 
 [Kafka_metamorphosis](files/kafka-metamorphosis_gutenberg.txt)
 
 [Kafka_metamorphosis treetagger](files/kafka-metamorphosis_gutenberg_treetagger.txt)
 
-#### 25 mars 2019
+#### devoir : trouver 3 corpus et les définir avec les 6 critères vus en cours
 
-#### 1er avril 2019
 
-#### 8 avril 2019
+### 25 mars 2019
 
-#### 15 avril 2019
+### 1er avril 2019
 
-#### 6 mai 2019
+### 8 avril 2019
 
-### Références
+### 15 avril 2019
+
+### 6 mai 2019
+
+## Références
 
   * Tony McEnery and Andrew Wilson. Corpus  Linguistics. Edinburgh: Edinburgh University Press, 2001 (second edition).
   * Céline Poudat et Frédéric Landragin. Explorer un corpus textuel : Méthodes – pratiques – outils. De Boeck Supérieur, 2017.
