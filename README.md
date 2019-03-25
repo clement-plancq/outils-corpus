@@ -23,6 +23,13 @@ Un devoir à rendre après chaque séance. La note finale sera la moyenne des no
 
 
 ### 25 mars 2019
+* [types, tokens, mots](outils_corpus-3.html)
+* [extraction d'informations](outils_corpus-4.html)
+
+#### devoir : calculer le ratio type/token pour les discours sur l'état de l'Union de [2016](files/stateoftheunion2016.txt) et [2017](files/stateoftheunion2017.txt)
+
+Pour la tokenization, utilisez le [tokenizer de Stanford](https://nlp.stanford.edu/software/tokenizer.shtml), [NLTK](http://www.nltk.org) ou [Spacy](https://spacy.io/)
+Vous devez envoyer le résultat ainsi que la description de vos traitements (scripts, outils, …)
 
 ### 1er avril 2019
 

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="clement.plancq@ens.fr">
+  <title>Outils de corpus</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="files/reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="files/reveal.js/css/theme/mine.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'files/reveal.js/css/print/pdf.css' : 'files/reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="files/reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Outils de corpus</h1>
+  <p class="subtitle">Corpus — 4</p>
+  <p class="author">clement.plancq@ens.fr</p>
+</section>
+
+<section id="comment-extraire-les-informations-dun-document" class="slide level3">
+<h3>Comment extraire les informations d’un document ?</h3>
+<p>Travail sur un <a href="http://www.lemonde.fr/international/article/2017/03/26/l-opposant-russe-alexei-navalny-et-130-militants-interpelles-lors-d-une-manifestation-anticorruption-a-moscou_5101022_3210.html">article du Monde</a> (26/03/2017)</p>
+<p>Des démos de produits commerciaux permettent de se faire une idée de ce que propose l’industrie :</p>
+<ul>
+<li><a href="https://www.lexalytics.com/demo">Lexalytics</a> (la démo nécéssite une inscription)</li>
+<li><a href="https://natural-language-understanding-demo.ng.bluemix.net/">Watson</a></li>
+</ul>
+<p>Essayez Watson en lui soumettant cette URL issue du NYTimes : https://www.nytimes.com/2017/03/26/world/europe/moscow-protests-aleksei-navalny.html</p>
+</section>
+<section id="comment-extraire-les-informations-dun-document-1" class="slide level3">
+<h3>Comment extraire les informations d’un document ?</h3>
+<p>Quid de la qualité de la détection des entités et des mots-clés ?<br />
+Comparez la détection des entités nommées avec la <a href="https://demos.explosion.ai/displacy-ent/">démo de spacy.io</a></p>
+</section>
+<section id="comment-extraire-les-mots-clés-dun-document" class="slide level3">
+<h3>Comment extraire les mots-clés d’un document ?</h3>
+<ul>
+<li>Approche naïve (fréquence de mots)</li>
+<li>Entités nommées</li>
+<li>Identification des collocations</li>
+</ul>
+</section>
+<section id="fréquence-de-mots" class="slide level3">
+<h3>Fréquence de mots</h3>
+<ol type="1">
+<li><p>Extraction du contenu d’une page web (web scraping) à l’aide du module Python Beautiful Soup ou de <a href="http://apps.lattice.cnrs.fr/readab">readab</a></p></li>
+<li><p>Etiquetage morpho-syntaxique</p></li>
+<li><p>Calculez la fréquence des mots du texte à partir de la version étiquetée</p></li>
+<li><p>Créez une représentation en nuage de mots du texte à l’aide de <a href="http://wordle.net/create">wordle</a></p></li>
+<li><p>wordle utilise une liste de stop words pour les mots vides. <small>Servez-vous des étiquettes morpho-syntaxiques pour supprimer les mots vides de votre compte de fréquence</small></p></li>
+</ol>
+</section>
+<section id="reconnaissance-dentités-nommées-ner" class="slide level3">
+<h3>Reconnaissance d’entités nommées (NER)</h3>
+<p><a href="http://nlp.stanford.edu:8080/ner/">Démo</a> du Stanford Named Entity Recognizer (NER)</p>
+<p>Modèles disponibles pour l’anglais, le chinois et l’allemand. Essayez avec le contenu de l’article du NYTimes</p>
+<p>Utilisez l’interface en ligne de <a href="http://apps.lattice.cnrs.fr/sem">SEM</a> pour détecter les entités nommées du texte issu du Monde</p>
+</section>
+<section id="collocations" class="slide level3">
+<h3>Collocations</h3>
+<blockquote>
+<p><em>Collocations of a given word are statements of the habitual or customary places of that word.</em> (Firth 1957)</p>
+</blockquote>
+<blockquote>
+<p><em>A collocation is an expression consisting of two or more words that correspond to some conventionnal way of saying things</em> (Manning &amp; Schütze 1999)</p>
+</blockquote>
+</section>
+<section id="collocations-1" class="slide level3">
+<h3>Collocations</h3>
+<ul>
+<li><p>Notion essentielle pour la linguistique contextualiste et la linguistique de corpus</p></li>
+<li><p>L’identification des collocations est un enjeu important en traduction automatique, en génération de texte et en extraction d’information</p></li>
+<li><p>Les linguistes ne s’entendent pas sur un seule définition de la <em>collocation</em></p></li>
+<li><p>La notion de <em>collocation</em> est difficilement formalisable</p></li>
+</ul>
+</section>
+<section id="collocations-2" class="slide level3">
+<h3>Collocations</h3>
+<ul>
+<li><p>cooccurrence &gt; collocation &gt; locution figée / expression idiomatique <em>nouveaux dispositifs</em> &gt; <em>projet de loi</em>, <em>surveillance massive</em> &gt; <em>casser sa pipe</em>, <em>hôtel de ville</em></p></li>
+<li>Les collocations :
+<ul>
+<li>ont une compositionnalité limitée,</li>
+<li>ses membres ne sont pas substituables (?<em>observation massive</em>)</li>
+<li>et enfin elles ne sont pas modifiables (?<em>surveillance très massive</em>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="comment-identifier-les-collocations" class="slide level3">
+<h3>Comment identifier les collocations ?</h3>
+<h4 id="patrons-syntaxiques">Patrons syntaxiques</h4>
+<ol type="1">
+<li>Calculer les fréquences des mots adjacents (<em>bigrammes</em>) du fichier taggué</li>
+<li>Rafiner cette liste en excluant les bigrammes ne comportant que des mots vides</li>
+<li>Utiliser une liste de patrons syntaxiques pour filtrer les bigrammes. ex: N N, N A, A N, …</li>
+</ol>
+</section>
+<section id="comment-identifier-les-collocations-1" class="slide level3">
+<h3>Comment identifier les collocations ?</h3>
+<h4 id="statistiques">Statistiques</h4>
+<ul>
+<li>Test statistique (test d’hypothèse) pour déterminer si l’association de deux mots est dûe au hasard ou non.<br />
+</li>
+<li><p>Utilisation des mesures dans <a href="http://www.nltk.org/api/nltk.metrics.html">nltk.metrics package</a> ou <a href="https://scikit-learn.org/stable/index.html">scikit-learn</a></p>
+<ul>
+<li>Log likelihood, Chi<sup>2</sup> , t-score</li>
+<li>Information mutuelle</li>
+</ul></li>
+<li><p><a href="http://www.laurenceanthony.net/software/antconc/">Antconc</a> implémente les deux premières dans son outil de détection de mots-clés</p></li>
+</ul>
+</section>
+<section id="utiliser-des-outils-dextraction-de-termes" class="slide level3">
+<h3>Utiliser des outils d’extraction de termes</h3>
+<p>Pour le français :</p>
+<ul>
+<li><a href="https://perso.limsi.fr/hamon/YaTeA/">YaTeA</a></li>
+<li><a href="http://termsuite.github.io/">Term suite</a></li>
+<li><a href="https://allgo.inria.fr/app/termex">Termex</a></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="files/reveal.js/lib/js/head.min.js"></script>
+  <script src="files/reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: false,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        maxScale: 1.2,
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'files/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'files/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'files/reveal.js/plugin/math/math.js', async: true },
+          { src: 'files/reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
