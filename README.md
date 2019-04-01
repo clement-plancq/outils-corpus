@@ -33,6 +33,16 @@ Vous devez envoyer le résultat ainsi que la description de vos traitements (scr
 
 ### 1er avril 2019
 
+* [graphes, grew, spacy](outils_corpus-5.html)
+
+#### devoir : À l'aide de spacy extrayez les triplets sujet, verbe, objet des phrases suivantes et commentez les éventuelles erreurs ou manques.
+ - « Le chat mange la souris. »
+ - « Les enfants n'aiment pas trop les asperges. »
+ - « Les Français réclament moins d'impôts. »
+ - « Les acacias donnent un miel ambré, limpide et fluide. »
+ - « L'équipe fait porter le chapeau à l'arbitrage. »
+
+
 ### 8 avril 2019
 
 ### 15 avril 2019
@@ -45,3 +55,4 @@ Vous devez envoyer le résultat ainsi que la description de vos traitements (scr
   * Céline Poudat et Frédéric Landragin. Explorer un corpus textuel : Méthodes – pratiques – outils. De Boeck Supérieur, 2017.
   * Daniel Jurafsky and James H. Martin.Speech and Language Processing. Pearson, 2008 (second edition). [pdfs de la troisième édition en cours](https://web.stanford.edu/~jurafsky/slp3/)
   * [Lecture Slides from the Stanford Coursera course by Dan Jurafsky and Christopher Manning](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
+  * [Site de Sébastien Ruder](http://ruder.io/)
