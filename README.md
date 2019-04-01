@@ -34,6 +34,8 @@ Vous devez envoyer le résultat ainsi que la description de vos traitements (scr
 ### 1er avril 2019
 
 * [graphes, grew, spacy](outils_corpus-5.html)
+  * [Graphs in Python](https://www.python-course.eu/graphs_python.php)
+  * [Python Patterns - Implementing Graphs](https://www.python.org/doc/essays/graphs/)
 
 #### devoir : À l'aide de spacy extrayez les triplets (sujet, verbe, objet) des phrases suivantes et commentez les éventuelles erreurs ou manques.
  - « Le chat mange la souris. »
