@@ -35,7 +35,7 @@ Vous devez envoyer le résultat ainsi que la description de vos traitements (scr
 
 * [graphes, grew, spacy](outils_corpus-5.html)
 
-#### devoir : À l'aide de spacy extrayez les triplets sujet, verbe, objet des phrases suivantes et commentez les éventuelles erreurs ou manques.
+#### devoir : À l'aide de spacy extrayez les triplets (sujet, verbe, objet) des phrases suivantes et commentez les éventuelles erreurs ou manques.
  - « Le chat mange la souris. »
  - « Les enfants n'aiment pas trop les asperges. »
  - « Les Français réclament moins d'impôts. »
