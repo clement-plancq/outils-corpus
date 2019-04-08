@@ -205,14 +205,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>La doc explique notamment comment adapter ou corriger les traitements</li>
 </ul>
 </section>
-<section id="re-tokenization" class="slide level3">
-<h3>re-tokenization</h3>
+<section id="re-tokenisation" class="slide level3">
+<h3>re-tokenisation</h3>
 <ul>
 <li>voir <a href="https://spacy.io/usage/linguistic-features#retokenization">https://spacy.io/usage/linguistic-features#retokenization</a></li>
 </ul>
 <div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb9-1" data-line-number="1">doc <span class="op">=</span> nlp(<span class="st">&quot;Tu parles sur moi, y&#39;a R&quot;</span>)</a>
 <a class="sourceLine" id="cb9-2" data-line-number="2"><span class="bu">print</span>([(tok.text, tok.tag_) <span class="cf">for</span> tok <span class="kw">in</span> doc])</a>
-<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="co"># pb avec tokenization de &quot;y&#39;a&quot;</span></a>
+<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="co"># pb avec tokenisation de &quot;y&#39;a&quot;</span></a>
 <a class="sourceLine" id="cb9-4" data-line-number="4"><span class="co"># (&quot;y&#39;a&quot;, &#39;ADP&#39;, &quot;y&#39;a&quot;), (&#39;R&#39;, &#39;NOUN&#39;, &#39;r&#39;)</span></a>
 <a class="sourceLine" id="cb9-5" data-line-number="5"></a>
 <a class="sourceLine" id="cb9-6" data-line-number="6"><span class="cf">with</span> doc.retokenize() <span class="im">as</span> retokenizer:       </a>
@@ -222,13 +222,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <a class="sourceLine" id="cb9-10" data-line-number="10"><span class="bu">print</span>([(tok.text, tok.tag_) <span class="cf">for</span> tok <span class="kw">in</span> doc])</a></code></pre></div>
 <p>Attention ici c’est l’objet <code>doc</code> qui est modifié, pas le modèle</p>
 </section>
-<section id="modification-de-la-tokenization" class="slide level3">
-<h3>modification de la tokenization</h3>
+<section id="modification-de-la-tokenisation" class="slide level3">
+<h3>modification de la tokenisation</h3>
 <div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="im">from</span> spacy.symbols <span class="im">import</span> ORTH, LEMMA, POS, TAG</a>
 <a class="sourceLine" id="cb10-2" data-line-number="2"></a>
 <a class="sourceLine" id="cb10-3" data-line-number="3">doc <span class="op">=</span> nlp(<span class="st">&quot;Tu parles sur moi, y&#39;a R&quot;</span>)</a>
 <a class="sourceLine" id="cb10-4" data-line-number="4"><span class="bu">print</span>([(tok.text, tok.tag_, tok.lemma_) <span class="cf">for</span> tok <span class="kw">in</span> doc])</a>
-<a class="sourceLine" id="cb10-5" data-line-number="5"><span class="co"># pb avec tokenization de &quot;y&#39;a&quot;</span></a>
+<a class="sourceLine" id="cb10-5" data-line-number="5"><span class="co"># pb avec tokenisation de &quot;y&#39;a&quot;</span></a>
 <a class="sourceLine" id="cb10-6" data-line-number="6"><span class="co"># (&quot;y&#39;a&quot;, &#39;ADP&#39;, &quot;y&#39;a&quot;), (&#39;R&#39;, &#39;NOUN&#39;, &#39;r&#39;)</span></a>
 <a class="sourceLine" id="cb10-7" data-line-number="7"></a>
 <a class="sourceLine" id="cb10-8" data-line-number="8">special_case <span class="op">=</span> [{ORTH: <span class="st">&quot;y&#39;&quot;</span>, LEMMA: <span class="st">&quot;y&quot;</span>, POS: <span class="st">&quot;PRO&quot;</span>}, {ORTH: <span class="st">u&quot;a&quot;</span>}]</a>
