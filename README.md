@@ -47,6 +47,13 @@ Vous devez envoyer le résultat ainsi que la description de vos traitements (scr
 
 ### 8 avril 2019
 
+* [spacy](outils_corpus-6.html)
+
+#### devoir : au choix
+ - Modifiez le script de vectorisation du cours d'[introduction à la fouille textes](https://loicgrobol.github.io/intro-fouille-textes/) de façon à (1) intégrer la tokenization par Spacy et (2) ajouter un trait comptant le nombre d'entités nommées par documents.
+ - Ré-entraînez un modèle pour l'adapter à soit deux textes de chansons « non standard » (hip-hop, français de la francophonie, …), deux poésies de François Villon ([exemple](https://www.poetica.fr/poeme-5050/francois-villon-ballade-des-dames-du-temps-jadis/))
+
+
 ### 15 avril 2019
 
 ### 6 mai 2019
