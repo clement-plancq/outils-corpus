@@ -11,7 +11,7 @@ from spacy.tokenizer import Tokenizer
 from spacy.symbols import POS
 
 def create_tokenizer(nlp):                                             
-    # https://stackoverflow.com/questions/43388476/how-could-spacy-tokenize-hashtag-as-a-whole#49170124
+    # inspired by https://stackoverflow.com/questions/43388476/how-could-spacy-tokenize-hashtag-as-a-whole
     # contains the regex to match all sorts of urls:
     from spacy.lang.tokenizer_exceptions import URL_PATTERN
     # extending the default url regex with regex for hashtags with "or" = |
@@ -36,6 +36,7 @@ def main():
     
     print("Load nlp model")
     nlp = spacy.load('fr_core_news_sm')
+    # change the tokenizer in order to handle hastag properly
     nlp.tokenizer = create_tokenizer(nlp)
 
     tagger = nlp.create_pipe("tagger")
