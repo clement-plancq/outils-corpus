@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="clement.plancq@ens.fr">
+  <title>Outils de corpus</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="files/reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="files/reveal.js/css/theme/mine.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'files/reveal.js/css/print/pdf.css' : 'files/reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="files/reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Outils de corpus</h1>
+  <p class="subtitle">Corpus — 7</p>
+  <p class="author">clement.plancq@ens.fr</p>
+</section>
+
+<section id="étiquetage-et-étiqueteurs" class="slide level3">
+<h3>Étiquetage et étiqueteurs</h3>
+<p>L’étiquetage morpho-syntaxique (<em>POS tagging</em>) consiste à assigner des informations grammaticales à chaque mot d’un texte.</p>
+<h4 id="entrée">entrée</h4>
+<blockquote>
+<p><em>Je suis allée dans la chambre</em>. <em>Elle me cherche alors je la chambre</em>.</p>
+</blockquote>
+<h4 id="sortie">sortie</h4>
+<blockquote>
+<p><em>Je/PRO suis/V allée/V dans/PP la/DET chambre/N</em>. <em>Elle/PRO me/PRO cherche/V alors/ADV je/PRO la/PRO chambre/V</em>.</p>
+</blockquote>
+<p>Les étiqueteurs sont souvent couplés à un outil de segmentation en phrases et en mots et/ou à un lemmatiseur.</p>
+</section>
+<section id="difficultés" class="slide level3">
+<h3>Difficultés</h3>
+<p>Eugene Charniak. <em>Statistical techniques for natural language parsing</em>. 1997</p>
+<ul>
+<li><p>90% de précision globale (<em>accuracy</em>) avec un algo simpliste sur de l’anglais</p>
+<ul>
+<li>Mot connu -&gt; tag le plus fréquent</li>
+<li>Mot inconnu -&gt; nom propre</li>
+</ul></li>
+<li><p>Aujourd’hui les meilleurs étiqueteurs sur le Penn Treebank frôlent les 98% (<a href="https://paperswithcode.com/sota/part-of-speech-tagging-on-penn-treebank">sota</a>)</p></li>
+</ul>
+</section>
+<section id="difficultés-1" class="slide level3">
+<h3>Difficultés</h3>
+<ol type="1">
+<li>Ambiguïté</li>
+</ol>
+<blockquote>
+<p><em>la/PRO/DET/N chambre/N/V est/V/N bien/A/ADV/N exposée/A/V</em></p>
+</blockquote>
+<ol start="2" type="1">
+<li>Mots inconnus</li>
+</ol>
+<p>Noms propres, mots étrangers, sigles. Quelle étiquette associer ?</p>
+<ol start="3" type="1">
+<li>Ressources</li>
+</ol>
+<p>Peu de corpus annotés de référence (<em>gold standard</em>) en français</p>
+</section>
+<section id="difficultés-2" class="slide level3">
+<h3>Difficultés /2</h3>
+<p>L’étiquetage est surtout une tâche de disambiguïsation</p>
+<p>Pourtant la plupart des types formant le vocabulaire sont non ambigus : ils ne peuvent porter qu’une catégorie morpho-syntaxique</p>
+<p>Mais les mots ambigus sont les plus fréquents dans les textes</p>
+<p><img data-src="files/jurafsky-ambiguity-crop.png" alt="tableau de jurafsky" /> <small>extrait de Speech and Language Processing (3rd ed. draft). Dan Jurafsky and James H. Martin </small></p>
+</section>
+<section id="etiqueteurs-pour-le-français" class="slide level3">
+<h3>Etiqueteurs pour le français</h3>
+<h4 id="beaucoup-doutils">Beaucoup d’outils</h4>
+<ul>
+<li><a href="http://www.cordial.fr/Cordial_Analyseur/Presentation_Cordial_Analyseur.htm">Cordial analyseur</a> (Synapse) : propriétaire, payant</li>
+<li><a href="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/">TreeTagger</a> : propriétaire, gratuit</li>
+<li><a href="https://team.inria.fr/almanach/fr/melt/">MElt</a> : open source (LGPL)</li>
+<li><a href="https://github.com/YoannDupont/SEM">SEM</a> : open source (MIT)</li>
+<li><a href="http://lia.univ-avignon.fr/chercheurs/bechet/download_fred.html">LIA_TAGG</a> : open source (GPL)</li>
+<li><a href="https://www.ortolang.fr/market/tools/sldr000841">MarsaTag</a> : libre</li>
+<li><a href="https://github.com/joliciel-informatique/talismane">Talismane</a> : open source (Affero GPL)</li>
+<li><a href="http://nlp.stanford.edu/software/tagger.shtml">Standford POS Tagger</a> : open source (GPL)</li>
+<li><a href="https://spacy.io">Spacy</a> : open source (MIT)</li>
+<li>…</li>
+</ul>
+</section>
+<section id="etiqueteurs-pour-le-français-1" class="slide level3">
+<h3>Etiqueteurs pour le français</h3>
+<h4 id="peu-de-modèles">Peu de modèles</h4>
+<p>La plupart des modèles utilisés par ces étiqueteurs ont été entraînés sur le <a href="http://ftb.linguist.univ-paris-diderot.fr/">French Treebank</a></p>
+<p>On trouve peu de modèles librement distribués pour l’oral ou d’autres variétés du français. Il existe un modèle au format TreeTagger pour le français médiéval : voir <a href="http://bfm.ens-lyon.fr/spip.php?article324">BFM</a></p>
+</section>
+<section id="types-détiqueteurs" class="slide level3">
+<h3>Types d’étiqueteurs</h3>
+<ul>
+<li>À base de règles</li>
+<li>Apprentissage par correction (Brill)</li>
+<li>Méthodes probabilistes</li>
+</ul>
+</section>
+<section id="etiqueteurs-à-base-de-règles" class="slide level3">
+<h3>Etiqueteurs à base de règles</h3>
+<ul>
+<li><p>Utilisation d’un lexique (forme fléchie, POS, morpho, lemme) et de grammaires locales (ex: Unitex)</p></li>
+<li>Avantages :
+<ul>
+<li>règles lisibles et modifiables aisément</li>
+<li>implémentation <em>simple</em> et efficace (automates finis)</li>
+</ul></li>
+<li>Inconvénients :
+<ul>
+<li>écriture manuelle de règles : difficile et couteux</li>
+<li>peu de performance sur les mots inconnus et les entrées bruitées</li>
+</ul></li>
+<li><p>Plus très utilisés aujourd’hui</p></li>
+</ul>
+</section>
+<section id="apprentissage-par-correction" class="slide level3">
+<h3>Apprentissage par correction</h3>
+<h4 id="étiqueteur-de-brill">Étiqueteur de Brill</h4>
+<p>Eric Brill. 1992. A simple rule-based part of speech tagger. In <em>Proceedings of the third conference on Applied natural language processing</em> (ANLC ’92). Association for Computational Linguistics, Stroudsburg, PA, USA, 152-155. DOI=http://dx.doi.org/10.3115/974499.974526</p>
+<ul>
+<li><p>Apprentissage fondé sur des transformations (<em>Transformation-based error-driven learning</em>), guidé par les erreurs</p></li>
+<li><p>Se veut être une alternative aux étiqueteurs stochastiques</p></li>
+</ul>
+</section>
+<section id="apprentissage-par-correction-1" class="slide level3">
+<h3>Apprentissage par correction</h3>
+<h4 id="étiqueteur-de-brill-1">Étiqueteur de Brill</h4>
+<ul>
+<li>Nécéssite un corpus annoté de référence (Brill a utilisé le Brown Corpus)
+<ul>
+<li>90% pour le dictionnaire/modèle</li>
+<li>5% pour construire la base de règles</li>
+<li>5% pour les tests</li>
+</ul></li>
+</ul>
+</section>
+<section id="etiqueteur-de-brill" class="slide level3">
+<h3>Etiqueteur de Brill</h3>
+<h4 id="phase-1-pas-de-prise-en-compte-du-contexte">Phase 1 : pas de prise en compte du contexte</h4>
+<ul>
+<li><p>Tag de chaque mot avec tag le plus probable d’après le modèle, sans prise en compte du contexte</p></li>
+<li><p>Les mots inconnus du corpus d’entraînement avec capitale sont taggés noms propres</p></li>
+<li><p>Les autres mots inconnus du training reçoivent le tag le plus fréquent des mots finissants avec les mêmes trois lettres (ex: blahblahous est taggué <em>adjectif</em>)</p></li>
+</ul>
+<p><strong>Beaucoup d’erreurs à l’issue de cette phase</strong></p>
+</section>
+<section id="etiqueteur-de-brill-1" class="slide level3">
+<h3>Etiqueteur de Brill</h3>
+<h4 id="phase-2-corrections">Phase 2 : corrections</h4>
+<ul>
+<li><p>Les erreurs de tagging à l’issue de la phase 1 sont conservées</p></li>
+<li>Application de patrons de correction (règles contextuelles) sur les erreurs. Ex tag <em>a</em> devient <em>b</em> si:
+<ul>
+<li>le mot précédent est taggé <em>z</em><br />
+</li>
+<li>le mot suivant est taggé <em>z</em><br />
+</li>
+<li>le mot précédent est taggé <em>z</em> et le mot suivant <em>w</em><br />
+</li>
+<li>etc…</li>
+</ul></li>
+</ul>
+</section>
+<section id="etiqueteur-de-brill-2" class="slide level3">
+<h3>Etiqueteur de Brill</h3>
+<h4 id="phase-2-corrections-1">Phase 2 : corrections</h4>
+<ul>
+<li><p>Exemple de règle apprise à l’aide d’un patron de correction</p>
+<pre><code>  changer l&#39;étiquette de Déterminant en Pronom
+  si le mot suivant est un Verbe conjugué</code></pre></li>
+<li><p>Calcul du nombre d’erreurs corrigées avec la règle et le nombre d’erreurs générées : si la règle est <em>rentable</em> elle est conservée dans une base de règles et appliquée sur l’ensemble du corpus</p></li>
+</ul>
+</section>
+<section id="etiqueteurs-probabilistes" class="slide level3">
+<h3>Etiqueteurs probabilistes</h3>
+<ul>
+<li>Les plus courants</li>
+<li>Très performants et ne nécessitent pas d’expertise</li>
+<li>Besoin d’un corpus annoté de référence de grande taille</li>
+<li>Les chaînes de Markov sont au cœur de la plupart des algos utilisés</li>
+<li>Nombreuses variantes possibles (entropie maximale, SVM, CRF, …)</li>
+<li><p>Performance améliorée lorsque le modèle probabiliste est couplée à un lexique</p></li>
+<li><p>Les erreurs sont difficilement analysables</p></li>
+</ul>
+</section>
+<section id="treetagger" class="slide level3">
+<h3>TreeTagger</h3>
+<ul>
+<li><p>Un des plus utilisés pour le français</p></li>
+<li>Pas forcément le meilleur, propriétaire mais :
+<ul>
+<li>gratuit</li>
+<li>rapide</li>
+<li>nombreux modèles disponibles</li>
+</ul></li>
+<li><p>On ne sait presque rien des données utilisées pour apprendre le modèle du français</p></li>
+</ul>
+<p>Helmut Schmid (1994): Probabilistic Part-of-Speech Tagging Using Decision Trees. Proceedings of International Conference on New Methods in Language Processing, Manchester, UK.</p>
+</section>
+<section id="treetagger-1" class="slide level3">
+<h3>TreeTagger</h3>
+<ul>
+<li><p>La plupart des étiqueteurs probabilistes reposent sur des <em>ngram</em> utilisés pour modéliser la probabilité d’une séquence de mots taggués.</p></li>
+<li><p>TreeTagger repose également sur des <em>ngram</em> mais il utilise des arbres de décision binaires pour estimer les probas de transition entre les mots de la séquence.</p></li>
+</ul>
+</section>
+<section id="treetagger-2" class="slide level3">
+<h3>TreeTagger</h3>
+<figure>
+<img data-src="files/decision-tree.jpg" alt="arbre de décision" /><figcaption>arbre de décision</figcaption>
+</figure>
+</section>
+<section id="treetagger-3" class="slide level3">
+<h3>TreeTagger</h3>
+<ul>
+<li><p>Pour les mots inconnus TreeTagger s’appuie sur des probas de suffixes</p>
+<p><code>istes NOM 0.7 ADJ 0.2 VERB:pres 0.1</code></p></li>
+<li><p>Les tests de l’arbre de décision sont choisis pour avoir le partitionnement le plus efficace possible<br />
+La meilleure illustration est celle du support de Franck Sajous <a href="http://fsajous.free.fr/SDL/SL0720X/treetagger/SL0720-sajous-2-fonctionnementTT.pdf">ici</a></p></li>
+</ul>
+</section>
+<section id="évaluation" class="slide level3">
+<h3>Évaluation</h3>
+<ul>
+<li><p>Les étiqueteurs à l’état de l’art obtiennent des scores de précision globale (<em>accuracy</em>) &gt; 95%</p></li>
+<li><p>Pour être évalué, le résultat d’un taggeur automatique est comparé à un corpus annoté de référence (<em>gold standard</em>)</p></li>
+<li><p>Pour un taggeur on met en avant la précision : <span class="math display">\[ \frac{nombre\ d&#39;unités\ correctement\ annotées}{nombre\ d&#39;unités\ annotées} \]</span></p></li>
+</ul>
+</section>
+<section id="évaluation-en-recherche-dinformation" class="slide level3">
+<h3>Évaluation en recherche d’information</h3>
+<ul>
+<li>Rappel <span class="math display">\[ \frac{nombre\ d&#39;&amp;eacute;l&amp;eacute;ments\ pertinents\ retrouv&amp;eacute;s}{nombre\ d&#39;&amp;eacute;l&amp;eacute;ments\ pertinents} \]</span></li>
+</ul>
+<p><span class="math display">\[ \frac{tp}{tp+fn}\]</span></p>
+<ul>
+<li>Précision <span class="math display">\[ \frac{nombre\ d&#39;&amp;eacute;l&amp;eacute;ments\ correctement\ retrouv&amp;eacute;s}{nombre\ d&#39;&amp;eacute;l&amp;eacute;ments\ retrouv&amp;eacute;s} \]</span></li>
+</ul>
+<p><span class="math display">\[ \frac{tp}{tp + fp} \]</span></p>
+</section>
+<section id="évaluation-1" class="slide level3">
+<h3>Évaluation</h3>
+<ul>
+<li><em>F-mesure</em> compromis rappel-précision utlisé pour évaluer la pertinence du système <span class="math display">\[ F_1=2\times\frac{precision \times rappel}{precision+rappel} \]</span></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="files/reveal.js/lib/js/head.min.js"></script>
+  <script src="files/reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: false,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        maxScale: 1.2,
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'files/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'files/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'files/reveal.js/plugin/math/math.js', async: true },
+          { src: 'files/reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
