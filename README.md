@@ -58,7 +58,7 @@ Vous devez envoyer le résultat ainsi que la description de vos traitements (scr
 * [étiquetage](outils_corpus-7.html)
 
 #### devoir : Étiquetez manuellement puis avec l'étiqueteur de votre choix les deux textes suivants. Calculez la précision globale pour chacun des textes et commentez.
-[sequoia.txt](sequoia.txt), [bashung](bashung.txt)
+[sequoia.txt](sequoia.txt), [bashung.txt](bashung.txt)
 
 Vous pourrez utiliser le [script d'évaluation de CoNLL 2018](http://universaldependencies.org/conll18/evaluation.html) (attention aux formats d'entrée), ce [script](https://github.com/dtuggener/ComparEval/blob/master/pos_tagging/eval_pos_tagger.py) ou vos propres calculs.
 
