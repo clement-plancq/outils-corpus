@@ -67,6 +67,9 @@ Vous pourrez utiliser le [script d'évaluation de CoNLL 2018](http://universalde
 ### 6 mai 2019
 
 * [word embeddings](outils_corpus-8.html)
+* liens
+[exemples de génération de texte avec OpenAi](https://openai.com/blog/better-language-models/)
+[génération de fanfiction Harry Potter](https://twitter.com/JanelleCShane/status/1097652984316481537)
 
 ## Références
 
