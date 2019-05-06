@@ -73,3 +73,4 @@ Vous pourrez utiliser le [script d'évaluation de CoNLL 2018](http://universalde
   * Daniel Jurafsky and James H. Martin.Speech and Language Processing. Pearson, 2008 (second edition). [pdfs de la troisième édition en cours](https://web.stanford.edu/~jurafsky/slp3/)
   * [Lecture Slides from the Stanford Coursera course by Dan Jurafsky and Christopher Manning](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
   * [Site de Sébastien Ruder](http://ruder.io/)
+  * [Cours interactif sur Spacy par Ines Montani](https://course.spacy.io/)
