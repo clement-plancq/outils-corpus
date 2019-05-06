@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="clement.plancq@ens.fr">
+  <title>Outils de corpus</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="files/reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="files/reveal.js/css/theme/mine.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'files/reveal.js/css/print/pdf.css' : 'files/reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="files/reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Outils de corpus</h1>
+  <p class="subtitle">Corpus — 8</p>
+  <p class="author">clement.plancq@ens.fr</p>
+</section>
+
+<section class="slide level3">
+
+<p>« Lavez et séchez la <em>margose</em>. Coupez-la en deux et retirez les graines et la chair cotonneuse dans laquelle elles se trouvent à l’aide d’une cuillère à café. »</p>
+<p>« Couper les <em>margoses</em> en 2 dans le sens de la longueur. Enlever les graines et les parties blanches. Couper les <em>margoses</em> en julienne et les laisser temper dans de l’eau vinaigrée et salée. »</p>
+<p>« Le fruit, la <em>margose</em>, est préparée cuite en carry, crue en rougail et dans des salades pimentées. »</p>
+</section>
+<section class="slide level3">
+
+<blockquote>
+<p>« La margose, melon amer ou momordique, est une plante potagère grimpante de la famille des Cucurbitaceae, cultivée dans les climats chauds ou tempérés en plante annuelle. Le terme margose désigne la plante et le fruit. » <a href="https://fr.wikipedia.org/wiki/Momordica_charantia">wikipedia</a></p>
+</blockquote>
+<figure>
+<img data-src="https://recette.supertoinette.com/121991/m/margose.jpg" alt="margose" /><figcaption>margose</figcaption>
+</figure>
+</section>
+<section id="word-embeddings" class="slide level3">
+<h3>Word embeddings</h3>
+<p>« You shall know a word by the company it keeps »<br />
+<em>Firth, J. R. 1957</em></p>
+</section>
+<section id="word-embeddings-1" class="slide level3">
+<h3>Word embeddings</h3>
+<ul>
+<li>développements récents de la sémantique distributionnelle (word2vec (2013))</li>
+<li>modèle de langage, apprentissage (<em>machine learning</em>)</li>
+<li>les mots sont représentés par des <span style="color:blue">vecteurs numériques</span> (probabilités d’apparition du mot dans un contexte donné)</li>
+<li>possibilité de faire du calcul algébrique sur les vecteurs<br />
+queen ≈ king − man + woman</li>
+</ul>
+</section>
+<section id="word-embeddings-2" class="slide level3">
+<h3>Word embeddings</h3>
+<ul>
+<li>approche non supervisée : pas besoin de données annotées</li>
+<li>outils robustes et faciles à utiliser : Word2vec (T. Mikolov), GloVe (Stanford University), fastText (Facebook)</li>
+<li>mise à disposition de modèles déjà entraînés sur wikipedia (<a href="https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md">90 langues disponibles</a>)</li>
+</ul>
+</section>
+<section id="matrices-termes-contextes" class="slide level3">
+<h3>Matrices termes-contextes</h3>
+<ul>
+<li>On connaît les matrices termes-documents (voir cours fouille de textes)</li>
+<li>Pour les vecteurs de mots on utilise des matrices termes-contextes. Chaque cellule note le nombre de fois où le mot cible (ligne) et le mot en colonne apparaissent dans le même contexte.</li>
+<li>Pour un vocabulaire de taille V, les matrices termes-contextes sont des matrices de dimension <span class="math display">\[ |V| \times |V| \]</span></li>
+<li>Ce sont des matrices creuses (<em>sparse matrix</em>) avec beaucoup de valeurs nulles</li>
+</ul>
+</section>
+<section id="matrices-termes-contextes-1" class="slide level3">
+<h3>Matrices termes-contextes</h3>
+<p><small> Sur les <em>têtes</em> des <em>statues</em>, alternaient des couronnes de chêne et de laurier.<br />
+Sur la table du <em>président</em> il y avait une grosse sonnette, presque une cloche, un large encrier de cuivre, […]<br />
+Des <em>têtes</em> coupées, portées au bout d’une pique, se sont égouttées sur cette table.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">alternaient</th>
+<th style="text-align: center;">avait</th>
+<th style="text-align: center;">bout</th>
+<th style="text-align: center;">coupées</th>
+<th style="text-align: center;">couronnes</th>
+<th style="text-align: center;">égouttées</th>
+<th style="text-align: center;">sont</th>
+<th style="text-align: center;">table</th>
+<th>…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>statues</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>têtes</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>président</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p></small></p>
+</section>
+<section id="word2vec" class="slide level3">
+<h3>word2vec</h3>
+<ul>
+<li>Recherches conduites par T. Mikolov et son équipe (Google), description dans deux papiers de 2013</li>
+<li>Meilleurs résultats que les méthodes précédentes pour un temps d’apprentissage moindre</li>
+<li>Mise à disposition du code associé</li>
+<li>Deux algos disponibles : CBOW (continuous bag of words) et skip-gram</li>
+<li>Les vecteurs de mots sont de dimension plus réduite (de 50 à 1000) et ils sont denses (peu de valeurs nulles)</li>
+</ul>
+</section>
+<section id="word2vec-1" class="slide level3">
+<h3>word2vec</h3>
+<ul>
+<li>word2vec utilise des réseaux neuronaux à deux couches pour produire ses embeddings</li>
+<li>L’intuition derrière word2vec est qu’au lieu de compter combien de fois un mot <em>w</em> apparaît dans le contexte de <em>couronnes</em> on va entraîner un classifieur sur une tâche de prédiction binaire : « est-ce que <em>w</em> a des chances d’apparaître dans le contexte de <em>couronnes</em> ? »</li>
+<li>Peu importe le résultat, les word embeddings vont contenir les poids appris pendant l’entraînement du classifieur</li>
+<li>Pour entraîner un tel classifieur il suffit d’avoir du texte brut</li>
+</ul>
+</section>
+<section id="word2vec-2" class="slide level3">
+<h3>word2vec</h3>
+<p>Avec CBOW le modèle prédit le mot c ourant à partir des mots du contexte, l’ordre des mots n’influence pas la prédiction</p>
+<figure>
+<img data-src="https://adriancolyer.files.wordpress.com/2016/04/word2vec-cbow.png?w=400" alt="cbow" /><figcaption>cbow</figcaption>
+</figure>
+</section>
+<section class="slide level3">
+
+<p>### word2vec</p>
+<p>Avec Skip-gram le modèle utilise le mot courant pour prédire les mots du contexte. Ici l’ordre des mots a un impact.</p>
+<figure>
+<img data-src="https://adriancolyer.files.wordpress.com/2016/04/word2vec-skip-gram.png?w=400" alt="skip-gram" /><figcaption>skip-gram</figcaption>
+</figure>
+</section>
+<section id="word2vec-3" class="slide level3">
+<h3>word2vec</h3>
+<p>Les paramètres utilisés pour l’entraînement sont déterminants .</p>
+<ul>
+<li><p><em>subsampling</em> Seuil de fréquence maximale au-dessus duquel les mots sont sous-échantillonés</p></li>
+<li><p>dimension des vecteurs</p></li>
+<li><p>taille de la fenêtre du contexte (5 à 10 mots en général)</p></li>
+</ul>
+</section>
+<section id="word2vec-4" class="slide level3">
+<h3>word2vec</h3>
+<ul>
+<li>Le code de word2vec est écrit en C</li>
+<li>Portage ou <em>binding</em> dans de nombreux langages</li>
+<li>Pour Python : <a href="https://radimrehurek.com/gensim/models/word2vec.html">gensim</a></li>
+<li>Spacy permet d’utiliser des modèles word2vec, voir <a href="https://spacy.io/usage/vectors-similarity">doc</a></li>
+<li>Modèles pour le français dispos <a href="https://fauconnier.github.io/#data">ici</a></li>
+</ul>
+</section>
+<section id="word-embeddings-3" class="slide level3">
+<h3>word embeddings</h3>
+<ul>
+<li>Word2vec donne pour chaque mot d’un corpus des mesures de similarité (cosinus)</li>
+<li>la similarité ne qualifie pas la relation sémantique entre deux mots</li>
+<li>antonymie, synonymie, hyperonymie, hyponymie</li>
+<li>pas de prise en compte de l’ambiguïté dans Word2vec mais traitée dans les recherches récentes (OOV, subword level)</li>
+</ul>
+</section>
+<section id="word-embeddings-4" class="slide level3">
+<h3>word embeddings</h3>
+<ul>
+<li>Les word embeddings ont permis de booster les applications de TAL qui utilisent une représentation du lexique (NER, tagging, traduction automatique, …)</li>
+<li>Ils ont aussi été utilisés avec succés pour la sémantique historique (<a href="https://arxiv.org/abs/1605.09096">arxiv</a>)</li>
+<li>L’utilisation de word embeddings multilingues a permis d’améliorer le parsing de langues peu dotées (<a href="http://atala.org/content/analyse-syntaxique-de-langues-faiblement-dot%C3%A9es-%C3%A0-partir-de-plongements-de-mots-multilingues">ref TAL</a>)</li>
+<li>word embeddings prenant en compte les dépendances syntaxiques (<a href="https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/">Levy &amp; Colberg 2014</a>)</li>
+<li>En 2018 de nouveaux types de modèles de langage ont encore changé la donne en TAL. <a href="http://jalammar.github.io/illustrated-bert/">http://jalammar.github.io/illustrated-bert/</a></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="files/reveal.js/lib/js/head.min.js"></script>
+  <script src="files/reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: false,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        maxScale: 1.2,
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'files/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'files/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'files/reveal.js/plugin/math/math.js', async: true },
+          { src: 'files/reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

@@ -66,6 +66,8 @@ Vous pourrez utiliser le [script d'évaluation de CoNLL 2018](http://universalde
 
 ### 6 mai 2019
 
+* [word embeddings](outils_corpus-8.html)
+
 ## Références
 
   * Tony McEnery and Andrew Wilson. Corpus  Linguistics. Edinburgh: Edinburgh University Press, 2001 (second edition).
