@@ -2,7 +2,7 @@
 
 ## Pratique
 
-~6 séances les lundis de 9h à 12h dans l'amphi 5 de l'INALCO, PLC, 65 rue des grands moulins, 75013 Paris.~  
+~~6 séances les lundis de 9h à 12h dans l'amphi 5 de l'INALCO, PLC, 65 rue des grands moulins, 75013 Paris.~~  
 6 séances les lundis de 10h à 12h sur Discord.
 
 ## Évaluation
@@ -15,14 +15,6 @@ Un devoir à rendre après chaque séance.
 ### 16 mars 2020
 * intro, définitions
 * formats d'annotations, outils de requêtes
-
-
-[Kafka_metamorphosis](files/kafka-metamorphosis_gutenberg.txt)
-
-[Kafka_metamorphosis treetagger](files/kafka-metamorphosis_gutenberg_treetagger.txt)
-
-#### devoir : trouver 3 corpus et les définir avec les 6 critères vus en cours. Trouver 1 
-
 
 ### 23 mars 2020
 
