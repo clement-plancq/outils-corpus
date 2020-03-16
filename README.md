@@ -13,8 +13,10 @@ Un devoir à rendre après chaque séance.
 ## Séances
 
 ### 16 mars 2020
-* intro, définitions
-* formats d'annotations, outils de requêtes
+
+* [intro, définitions, formats d'annotations, outils de requêtes](outils_corpus-1.html)
+
+* Devoir : trouver et renseigner, à l'aide des 6 critères vus en cours, 4 corpus dont 1 *gros* corpus. 
 
 ### 23 mars 2020
 

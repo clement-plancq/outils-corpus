@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="clement.plancq@ens.psl.eu">
+  <title>Outils de corpus – 1</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="files/reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="files/reveal.js/css/theme/mine.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'files/reveal.js/css/print/pdf.css' : 'files/reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="files/reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Outils de corpus – 1</h1>
+  <p class="author">clement.plancq@ens.psl.eu</p>
+</section>
+
+<section id="objectifs" class="slide level3">
+<h3>Objectifs</h3>
+<ul>
+<li>Rappeler quelques notions clés sur les corpus</li>
+<li>Utiliser des outils dédiés aux corpus
+<ul>
+<li>Outils d’interrogation</li>
+<li>Outils d’annotation</li>
+</ul></li>
+</ul>
+</section>
+<section id="àquoi-servent-les-corpus-recherche" class="slide level3">
+<h3>À quoi servent les corpus : recherche</h3>
+<ul>
+<li>linguistique<br />
+<em>linguistique de corpus</em>. Sous-branche de la linguistique d’origine anglo-saxonne qui a comme objet principal les données de corpus</li>
+<li>TAL<br />
+utilisation des corpus pour élaborer des modèles de langage</li>
+<li>IA</li>
+</ul>
+</section>
+<section id="àquoi-servent-les-corpus-industrie" class="slide level3">
+<h3>À quoi servent les corpus : industrie</h3>
+<ul>
+<li>correction orthographique, grammaticale, stylistique (Cordial, MS Word, …)</li>
+<li>fouille de textes, acquisition de connaissances</li>
+<li>fouille d’opinions (e-reputation)</li>
+<li>extraction d’informations et systèmes de QA (<a href="https://www.youtube.com/watch?v=WFR3lOm_xhE">Watson</a>)</li>
+<li>traduction (Google Translate, DeepL, <a href="http://www.skype.com/fr/translator-preview/">Skype Translator</a>) et aide à la traduction</li>
+<li>résumé automatique</li>
+<li>génération de texte</li>
+<li>reconnaissance vocale, synthèse vocale</li>
+<li>dialoue Homme-Machine, agents conversationnels (<a href="http://eliza.levillage.org/index.html">ELIZA</a>, Siri (Apple), Alexa (Amazon), Cortana (Ms), Google Home)</li>
+</ul>
+</section>
+<section id="quest-ce-quun-corpus" class="slide level3">
+<h3>Qu’est-ce qu’un corpus ?</h3>
+<blockquote>
+<p>corpus in modern linguistics, in contrast to being simply any body of text, might more accurately be described as a <em>finite-sized</em> body of <em>machine-readable</em> text, <em>sampled</em> in order to be maximally <em>representative of the language variety under consideration</em>.</p>
+</blockquote>
+<p>(McEnery and Wilson 2001)</p>
+<p>Définition stricte d’un corpus héritée de la linguistique de corpus</p>
+</section>
+<section id="corpus-ou-données" class="slide level3">
+<h3>Corpus ou données ?</h3>
+<ul>
+<li><p>En TAL, corpus peut prendre une définition plus large : un ensemble de documents textuels</p></li>
+<li><p>On parle aussi de collection de données langagières</p></li>
+<li><p>Frontière ténue entre un corpus et un <em>dataset</em></p></li>
+</ul>
+</section>
+<section id="critères-de-définition-dun-corpus" class="slide level3">
+<h3>Critères de définition d’un corpus</h3>
+<ul>
+<li>Taille (en nb de mots le plus souvent)</li>
+<li>Annotations (niveaux et outils utilisés)</li>
+<li>Statut de la documentation (guidelines, publication scientifique)</li>
+<li>Stratégie d’échantillonnage et origine des textes (genre)</li>
+<li>Modalité (écrit/oral)</li>
+<li>Licence et droits d’utilisation</li>
+</ul>
+</section>
+<section id="types-dannotation" class="slide level3">
+<h3>Types d’annotation</h3>
+<ul>
+<li>(Transcription phonétique et/ou orthographique d’enregistrements)</li>
+<li>Annotation morpho-syntaxique (POS tagging)</li>
+<li>Annotation syntaxique (en constituants, en dépendance)</li>
+<li>Annotation sémantique</li>
+<li>Annotation en structures discursives</li>
+</ul>
+</section>
+<section id="du-texte-brut-au-texte-annoté" class="slide level3">
+<h3>Du texte brut au texte annoté</h3>
+<pre><code>+-------------+
+|  texte brut |
++------+------+
+       |        sentence splitting
++------v-------+
+|   phrases    |
++------+-------+
+       |        tokenisation
++------v-------+
+|    tokens    |
++------+-------+
+       |        POS tagging
++------v-------+
+| tagged corpus|
++------+-------+
+       |        Parsing
++------v-------+
+|   treebank   |
++--------------+</code></pre>
+</section>
+<section class="slide level3">
+
+<p>### Découpage en phrases</p>
+<pre><code>One morning, when Gregor Samsa woke from troubled dreams, he found
+himself transformed in his bed into a horrible vermin.  He lay on
+his armour-like back, and if he lifted his head a little he could
+see his brown belly, slightly domed and divided by arches into stiff
+sections.</code></pre>
+<p>–</p>
+<pre><code>&lt;s&gt;One morning, when Gregor Samsa woke from troubled dreams, he found
+himself transformed in his bed into a horrible vermin.&lt;/s&gt; &lt;s&gt; He lay on
+his armour-like back, and if he lifted his head a little he could
+see his brown belly, slightly domed and divided by arches into stiff
+sections.&lt;/s&gt;</code></pre>
+</section>
+<section id="découpage-en-phrases" class="slide level3">
+<h3>Découpage en phrases</h3>
+<pre><code>&quot;Oh, God!&quot;
+called his mother, who was already in tears, &quot;he could be seriously
+ill and we&#39;re making him suffer.  Grete! Grete!&quot; she then cried.
+&quot;Mother?&quot; his sister called from the other side.  They communicated
+across Gregor&#39;s room.  &quot;You&#39;ll have to go for the doctor straight
+away.  Gregor is ill.  Quick, get the doctor.  Did you hear the way
+Gregor spoke just now?&quot;  &quot;That was the voice of an animal&quot;, said the
+chief clerk, with a calmness that was in contrast with his mother&#39;s
+screams.</code></pre>
+<table style="width:4%;">
+<colgroup>
+<col style="width: 4%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">?</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tokenisation" class="slide level3">
+<h3>Tokenisation</h3>
+<pre><code>One morning, when Gregor Samsa woke from troubled dreams, he found
+himself transformed in his bed into a horrible vermin.</code></pre>
+<p>–</p>
+<pre><code>One / morning, / when / Gregor / Samsa / woke / from / troubled / dreams, / he / found / himself / transformed / in / his / bed / into / a / horrible / vermin.</code></pre>
+</section>
+<section id="tokenisation-1" class="slide level3">
+<h3>Tokenisation</h3>
+<pre><code>&quot;What&#39;s happened to me?&quot; he thought.  It wasn&#39;t a dream.</code></pre>
+<p>–</p>
+<pre><code>?</code></pre>
+</section>
+<section id="où-trouver-les-corpus" class="slide level3">
+<h3>Où trouver les corpus ?</h3>
+<ul>
+<li>Agences de distribution
+<ul>
+<li><a href="https://www.ldc.upenn.edu/">Linguistic Data Consortium</a></li>
+<li><a href="http://www.elra.info/">ELRA</a></li>
+</ul></li>
+<li>Inventaires et portails
+<ul>
+<li><a href="http://lremap.elra.info/">LRE Map</a></li>
+<li><a href="http://catalog.clarin.eu/vlo/">VLO</a></li>
+<li><a href="https://childes.talkbank.org/">CHILDES</a></li>
+<li><a href="http://www.ortolang.fr/">Ortolang</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="où-trouver-les-corpus-1" class="slide level3">
+<h3>Où trouver les corpus ?</h3>
+<ul>
+<li>Universités ou laboratoires producteurs de ressources
+<ul>
+<li><a href="http://www.natcorp.ox.ac.uk/">University of Oxford</a></li>
+<li><a href="http://corpus.byu.edu/">BYU</a></li>
+<li><a href="https://www.korpus.cz/">Corpus national tchèque</a></li>
+<li><a href="http://redac.univ-tlse2.fr/">CLE-ERSS</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="exemples-de-corpus" class="slide level3">
+<h3>Exemples de corpus</h3>
+<h4 id="corpus-de-référence">Corpus de référence</h4>
+<ul>
+<li>Brown corpus <small>(Brown University, 1960, 1 million de mots, 500 échantillons de 15 genres, étiqueté en POS)</small></li>
+<li><a href="http://www.natcorp.ox.ac.uk/">BNC</a> <small>(British National Corpus, 100 millions de mots, échantillonné, étiqueté en POS)</small></li>
+<li><a href="http://corpus.byu.edu/coca/">COCA</a> <small>(Corpus of Contemporary American English, 560 millions de mots, échantillonné, étiqueté en POS)</small></li>
+</ul>
+</section>
+<section id="exemples-de-corpus-1" class="slide level3">
+<h3>Exemples de corpus</h3>
+<h4 id="treebanks">Treebanks</h4>
+<ul>
+<li><a href="https://catalog.ldc.upenn.edu/LDC99T42">Penn Treebank</a> <small>(premier corpus annoté en syntaxe, Brown + WSJ + ATIS-3)</small></li>
+<li><a href="http://ftb.linguist.univ-paris-diderot.fr/">French Treebank</a> <small>(en français, converti et réutilisé dans plusieurs projets)</small></li>
+<li><a href="http://www.coli.uni-saarland.de/projects/sfb378/negra-corpus/negra-corpus.html">Negra corpus</a></li>
+</ul>
+<h4 id="corpus-parallèle">Corpus parallèle</h4>
+<ul>
+<li><a href="http://www.isi.edu/natural-language/download/hansard/">Hansard</a></li>
+<li><a href="http://www.statmt.org/europarl/">Europarl</a></li>
+<li><a href="https://www.cl.uzh.ch/en/texttechnologies/research/corpus-linguistics/paralleltreebanks/smultron.html">Smultron</a></li>
+</ul>
+</section>
+<section id="les-gros-corpus-du-web" class="slide level3">
+<h3>Les <em>gros</em> corpus du web</h3>
+<ul>
+<li><a href="https://wacky.sslmit.unibo.it/doku.php?id=corpora#french">frWaC</a> (1,6 milliards de mots, annotation POS avec TreeTagger)</li>
+<li><a href="https://corporafromtheweb.org/frcow16/">FRCOW16</a> (8,7 milliards de mots)</li>
+<li><a href="https://traces1.inria.fr/oscar/">OSCAR</a> (23 milliards de mots pour le français (issu de <a href="https://commoncrawl.org/">Common Crawl</a>))</li>
+</ul>
+</section>
+<section id="formats-dannotation" class="slide level3">
+<h3>Formats d’annotation</h3>
+<h4 id="annotation-morpho-syntaxique">Annotation morpho-syntaxique</h4>
+<ul>
+<li>format Brown (forme/POS/lemme)</li>
+</ul>
+<pre><code>L&#39;homme/NPP/*L&#39;homme était/V/être parti/VPP/partir de/P/de
+Marchiennes/NPP/Marchiennes vers/P/vers deux/DET/*deux heures.</code></pre>
+<ul>
+<li>format TreeTagger (forme POS lemme)</li>
+</ul>
+<pre><code>L&#39;  DET:ART le
+homme   NOM homme
+était   VER:impf    être
+parti   VER:pper    partir
+de  PRP de
+Marchiennes NAM &lt;unknown&gt;
+vers    PRP vers
+deux    NUM deux
+heures  NOM heure
+.   SENT    .</code></pre>
+</section>
+<section id="formats-dannotation-2" class="slide level3">
+<h3>Formats d’annotation (2)</h3>
+<h4 id="annotation-syntaxique-en-constituants">Annotation syntaxique en constituants</h4>
+<figure>
+<img data-src="files/exemple-ft.png" alt="exemple FTB" /><figcaption>exemple FTB</figcaption>
+</figure>
+<ul>
+<li><a href="files/exemple-ft-penn.txt">format Penn</a></li>
+<li><a href="files/exemple-ft-xml.xml">format xml</a></li>
+<li><a href="files/exemple-ft-tiger.xml">format TIGER-XML</a></li>
+</ul>
+</section>
+<section id="formats-dannotation-3" class="slide level3">
+<h3>Formats d’annotation (3)</h3>
+<h4 id="annotation-syntaxique-en-dépendances">Annotation syntaxique en dépendances</h4>
+<figure>
+<img data-src="files/exemple-orfeo.png" alt="exemple orfeo" /><figcaption>exemple <a href="http://www.projet-orfeo.fr">orfeo</a></figcaption>
+</figure>
+<ul>
+<li><p><a href="files/exemple-orfeo.txt">format CoNLL</a></p></li>
+<li><p>description du format <a href="http://ufal.mff.cuni.cz/conll2009-st/task-description.html#Dataformat">CoNLL-2009</a> et <a href="http://universaldependencies.org/format.html">CoNLL-U</a></p></li>
+</ul>
+</section>
+<section id="formats-dannotation-4" class="slide level3">
+<h3>Formats d’annotation (4)</h3>
+<h4 id="alignement-de-corpus-exemple-tiré-deuroparl">Alignement de corpus (Exemple tiré d’Europarl)</h4>
+<ul>
+<li>format CES</li>
+</ul>
+<p><a href="files/exemple-align-en.xml">fichier en</a></p>
+<p><a href="files/exemple-align-fr.xml">fichier fr</a></p>
+<p><a href="files/exemple-align-ces.xml">fichier alignement</a></p>
+<ul>
+<li>format TMX (translation memory exchange)</li>
+</ul>
+<p><a href="files/exemple-align-tmx.xml">fichier en-fr</a></p>
+</section>
+<section id="outils-dexploration-de-corpus" class="slide level3">
+<h3>Outils d’exploration de corpus</h3>
+<ul>
+<li><p>Concordanciers : Wordsmith, AntConc</p></li>
+<li><p>Concordanciers en ligne (<a href="http://retour.iro.umontreal.ca/cgi-bin/lexiqum">lexiqum</a>, <a href="https://lextutor.ca/conc/fr/">lextutor</a>)</p></li>
+<li><p>Outils de requête avec prise en compte des annotations (<a href="http://cwb.sourceforge.net/">IMS CWB</a>, <a href="https://www.clarin.si/noske/index.html">NoSketch Engine</a>)</p></li>
+<li><p>Outils de requête pour treebanks (TGrep, Tregex, TIGERSearch, <a href="http://corpus-tools.org/annis/">Annis</a>, <a href="http://match.grew.fr/">Grew</a>)</p></li>
+<li><p>Outils pour corpus alignés (<a href="http://opus.lingfil.uu.se/">opus</a>)</p></li>
+<li><p>Outils de textométrie (<a href="http://textometrie.ens-lyon.fr/">TXM</a>, <a href="http://www.tal.univ-paris3.fr/lexico/">Lexico3</a>)</p></li>
+</ul>
+</section>
+<section id="cql-corpus-query-language" class="slide level3">
+<h3>CQL (corpus query language)</h3>
+<p>Développé à Stuttgart pour <a href="http://cwb.sourceforge.net/">IMS CWB</a> Voir <a href="http://cwb.sourceforge.net/files/CQP_Tutorial/">documentation</a></p>
+<ul>
+<li>requête sur des champs</li>
+</ul>
+<pre><code>[word = &quot;Marchiennes&quot;]
+[pos = &quot;NAM&quot;]
+[] (n&#39;importe quel mot)</code></pre>
+<ul>
+<li>support des expressions régulières</li>
+</ul>
+<pre><code>[word = &quot;.+eur&quot;]</code></pre>
+<ul>
+<li>combinaison de champs</li>
+</ul>
+<pre><code>[word = &quot;.+eur&quot; &amp; pos=&quot;N&quot;]
+[pos=&quot;N&quot;] [pos=&quot;ADJ&quot;]</code></pre>
+<ul>
+<li>requêtes sur les structures</li>
+</ul>
+<pre><code>&lt;s&gt; [pos = &quot;V&quot;]
+[pos = &quot;V&quot;] &lt;/s&gt;</code></pre>
+</section>
+<section id="cql-corpus-query-language-1" class="slide level3">
+<h3>CQL (corpus query language)</h3>
+<p>Interrogation du corpus <a href="http://wacky.sslmit.unibo.it/doku.php?id=corpora">frWac</a> avec l’outil <a href="https://www.clarin.si/noske/run.cgi/first_form?corpname=frwac">NoSketchEngine</a></p>
+<ol type="1">
+<li>Trouver les noms commençants par ‘anti’</li>
+<li>Trouver les fréquences par POS des mots se terminant par ‘able’</li>
+<li>Comparer les fréquences des adverbes se terminant par ‘ment’ et ceux ne se terminant pas par ‘ment’</li>
+<li>Compter le nombre de séquences “adj nom” et “nom adj”</li>
+</ol>
+</section>
+    </div>
+  </div>
+
+  <script src="files/reveal.js/lib/js/head.min.js"></script>
+  <script src="files/reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: false,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        maxScale: 1.2,
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'files/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'files/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'files/reveal.js/plugin/math/math.js', async: true },
+          { src: 'files/reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
