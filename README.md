@@ -10,6 +10,8 @@
 Un devoir à rendre après chaque séance.  
 6 séances, 6 devoirs, 6 notes. La note finale sera la moyenne des notes.
 
+Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-rendus.md)
+
 ## Séances
 
 ### 16 mars 2020
