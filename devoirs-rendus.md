@@ -6,10 +6,11 @@
 |:---:|:--------:|:-----:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |  A  |Yara      |P10    |         |         |         |         |         |         |
 |  B  |Marina    |P10    |✓        |         |         |         |         |         |
-|  C  |France    |INALCO |         |         |         |         |         |         |
+|  C  |France    |INALCO |✓        |         |         |         |         |         |
 |  D  |Laurianne |       |         |         |         |         |         |         |
+|  G  |Mei       |INALCO |✓        |         |         |         |         |         |
 |  H  |Lijing    |P3     |         |         |         |         |         |         |
-|  K  |Lila      |P3     |         |         |         |         |         |         |
+|  K  |Lila      |P3     |✓        |         |         |         |         |         |
 |  L  |Nalae     |P10    |         |         |         |         |         |         |
 |  L  |Aurore    |P10    |         |         |         |         |         |         |
 |  L  |Wenfei    |P10    |         |         |         |         |         |         |
@@ -17,6 +18,7 @@
 |  M  |Lisa      |P10    |✓        |         |         |         |         |         |
 |  M  |Malik     |INALCO |         |         |         |         |         |         |
 |  N  |Mariam    |P10    |         |         |         |         |         |         |
+|  N  |Anna      |INALCO |✓        |         |         |         |         |         |
 |  P  |Anaëlle   |INALCO |         |         |         |         |         |         |
 |  P  |Solveig   |INALCO |         |         |         |         |         |         |
 |  Q  |Wang      |INALCO |         |         |         |         |         |         |
