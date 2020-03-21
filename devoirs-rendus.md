@@ -11,13 +11,14 @@
 |  G  |Mei       |INALCO |✓        |         |         |         |         |         |
 |  H  |Lijing    |P3     |         |         |         |         |         |         |
 |  K  |Lila      |P3     |✓        |         |         |         |         |         |
+|  L  |Nicolas   |P3     |✓        |         |         |         |         |         |
 |  L  |Nalae     |P10    |         |         |         |         |         |         |
 |  L  |Aurore    |P10    |         |         |         |         |         |         |
 |  L  |Wenfei    |P10    |         |         |         |         |         |         |
 |  L  |Jianying  |P3     |         |         |         |         |         |         |
 |  M  |Lisa      |P10    |✓        |         |         |         |         |         |
 |  M  |Malik     |INALCO |         |         |         |         |         |         |
-|  N  |Mariam    |P10    |         |         |         |         |         |         |
+|  N  |Mariam    |P10    |✓        |         |         |         |         |         |
 |  N  |Anna      |INALCO |✓        |         |         |         |         |         |
 |  P  |Anaëlle   |INALCO |         |         |         |         |         |         |
 |  P  |Solveig   |INALCO |         |         |         |         |         |         |
