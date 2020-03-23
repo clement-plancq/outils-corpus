@@ -8,7 +8,7 @@
 |  A. |Maude     |P3     |✓        |         |         |         |         |         |
 |  B. |Marina    |P10    |✓        |         |         |         |         |         |
 |  B. |Arthur    |INALCO |✓        |         |         |         |         |         |
-|  C. |Juliette  |INALCO |         |         |         |         |         |         |
+|  C. |Juliette  |INALCO |✓        |         |         |         |         |         |
 |  C. |France    |INALCO |✓        |         |         |         |         |         |
 |  C. |Yolène    |       |✓        |         |         |         |         |         |
 |  C. |Daxin     |       |✓        |         |         |         |         |         |
