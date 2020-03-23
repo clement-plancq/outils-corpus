@@ -344,10 +344,10 @@ heures  NOM heure
 <h3>CQL (corpus query language)</h3>
 <p>Interrogation du corpus <a href="http://wacky.sslmit.unibo.it/doku.php?id=corpora">frWac</a> avec l’outil <a href="https://www.clarin.si/noske/run.cgi/first_form?corpname=frwac">NoSketchEngine</a></p>
 <ol type="1">
-<li>Trouver les noms commençants par ‘anti’</li>
-<li>Trouver les fréquences par POS des mots se terminant par ‘able’</li>
-<li>Comparer les fréquences des adverbes se terminant par ‘ment’ et ceux ne se terminant pas par ‘ment’</li>
-<li>Compter le nombre de séquences “adj nom” et “nom adj”</li>
+<li>Trouver les noms commençants par ‘anti’ <code>[word=&quot;anti.+&quot; &amp; tag=&quot;N.*&quot;]</code></li>
+<li>Trouver les fréquences par POS des mots se terminant par ‘able’ <code>[word=&quot;.+able&quot;]</code> (puis Frequency &gt; Node tags)</li>
+<li>Comparer les fréquences des adverbes se terminant par ‘ment’ et ceux ne se terminant pas par ‘ment’ <code>[word=&quot;.+ment&quot; &amp; tag=&quot;R&quot;]</code> et <code>[word!=&quot;.+ment&quot; &amp; tag=&quot;R&quot;]</code></li>
+<li>Compter le nombre de séquences “adj nom” et “nom adj” <code>[tag=&quot;N.*&quot;] [tag=&quot;A.*&quot;]</code> et <code>[tag=&quot;A.*&quot;] [tag=&quot;N.*&quot;]</code></li>
 </ol>
 </section>
     </div>
