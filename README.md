@@ -21,9 +21,13 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 * Devoir : trouver et renseigner, à l'aide des 6 critères vus en cours, 4 corpus dont 1 *gros* corpus. 
 
 ### 23 mars 2020
+* [Mots, types, tokens](outils_corpus-2.html)
+* [Extraction d'informations](outils_corpus-3.html)
 
-* Mots, types, tokens
-* Extraction d'informations
+* devoir : calculer le ratio type/token pour les discours sur l'état de l'Union de [2016](files/stateoftheunion2016.txt) et [2017](files/stateoftheunion2017.txt)
+
+  Pour la tokenization, utilisez le [tokenizer de Stanford](https://nlp.stanford.edu/software/tokenizer.shtml), [NLTK](http://www.nltk.org) ou [Spacy](https://spacy.io/)
+  Vous devez envoyer le résultat ainsi que la description de vos traitements (scripts, outils, …)
 
 ### 30 mars 2020
 
