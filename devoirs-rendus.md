@@ -49,7 +49,7 @@
 |  V. |Markarit  |P10    |✓        |         |         |         |         |         |
 |  V. |Corentin  |       |✓        |         |         |         |         |         |
 |  W. |Xiaooau   |P3     |✓        |         |         |         |         |         |
-|  W. |Qi        |P3     |         |         |         |         |         |         |
+|  W. |Qi        |P3     |✓        |         |         |         |         |         |
 |  X. |Tian      |P3     |✓        |         |         |         |         |         |
 |  Y. |Kristina  |INALCO |✓        |         |         |         |         |         |
 |  Y. |Yimei     |P3     |✓        |         |         |         |         |         |
