@@ -39,6 +39,7 @@
 |  R. |Sophie    |INALCO |✓        |         |         |         |         |         |
 |  R. |Camille   |INALCO |✓        |         |         |         |         |         |
 |  S. |Martin    |P10    |✓        |         |         |         |         |         |
+|  S. |Bérénice  |P3     |✓        |         |         |         |         |         |
 |  S. |Hayoung   |INALCO |         |         |         |         |         |         |
 |  S. |Xinyi     |INALCO |✓        |         |         |         |         |         |
 |  S. |Valentin-Gabriel|       |✓        |         |         |         |         |         |
