@@ -11,7 +11,7 @@
 |  C. |Juliette  |INALCO |✓        |         |         |         |         |         |
 |  C. |France    |INALCO |✓        |         |         |         |         |         |
 |  C. |Yolène    |       |✓        |         |         |         |         |         |
-|  C. |Daxin     |       |✓        |         |         |         |         |         |
+|  C. |Daxin     |       |✓        |✓        |         |         |         |         |
 |  D. |Laurianne |       |✓        |         |         |         |         |         |
 |  D. |Martin    |INALCO |✓        |         |         |         |         |         |
 |  D. |Saliou    |INALCO |✓        |         |         |         |         |         |
@@ -32,7 +32,7 @@
 |  M. |Malik     |INALCO |✓        |         |         |         |         |         |
 |  N. |Young-Ju  |       |✓        |         |         |         |         |         |
 |  N. |Mariam    |P10    |✓        |         |         |         |         |         |
-|  N. |Anna      |INALCO |✓        |         |         |         |         |         |
+|  N. |Anna      |INALCO |✓        |✓        |         |         |         |         |
 |  O. |Daria     |P3     |✓        |         |         |         |         |         |
 |  P. |Anaëlle   |INALCO |✓        |         |         |         |         |         |
 |  P. |Solveig   |INALCO |✓        |         |         |         |         |         |
@@ -45,7 +45,7 @@
 |  S. |Valentin-Gabriel|       |✓        |         |         |         |         |         |
 |  S. |Emmet     |P10    |✓        |         |         |         |         |         |
 |  S. |Malick    |P10    |✓        |         |         |         |         |         |
-|  V. |Élodie    |P3     |✓        |         |         |         |         |         |
+|  V. |Élodie    |P3     |✓        |✓        |         |         |         |         |
 |  V. |Markarit  |P10    |✓        |         |         |         |         |         |
 |  V. |Corentin  |       |✓        |         |         |         |         |         |
 |  W. |Xiaooau   |P3     |✓        |         |         |         |         |         |
