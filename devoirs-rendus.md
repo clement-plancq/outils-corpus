@@ -38,10 +38,10 @@
 |  P. |Solveig   |INALCO |✓        |         |         |         |         |         |
 |  R. |Sophie    |INALCO |✓        |         |         |         |         |         |
 |  R. |Camille   |INALCO |✓        |         |         |         |         |         |
-|  S. |Martin    |P10    |✓        |         |         |         |         |         |
+|  S. |Martin    |P10    |✓        |✓        |         |         |         |         |
 |  S. |Bérénice  |P3     |✓        |         |         |         |         |         |
 |  S. |Hayoung   |INALCO |         |         |         |         |         |         |
-|  S. |Xinyi     |INALCO |✓        |         |         |         |         |         |
+|  S. |Xinyi     |INALCO |✓        |✓        |         |         |         |         |
 |  S. |Valentin-Gabriel|       |✓        |         |         |         |         |         |
 |  S. |Emmet     |P10    |✓        |         |         |         |         |         |
 |  S. |Malick    |P10    |✓        |         |         |         |         |         |
