@@ -4,7 +4,7 @@
 
 | Nom | Prénom   | Univ. | cours 1 | cours 2 | cours 3 | cours 4 | cours 5 | cours 6 |
 |:---:|:--------:|:-----:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|  A. |Yara      |P10    |✓        |         |         |         |         |         |
+|  A. |Yara      |P10    |✓        |✓        |         |         |         |         |
 |  A. |Maude     |P3     |✓        |         |         |         |         |         |
 |  B. |Marina    |P10    |✓        |         |         |         |         |         |
 |  B. |Arthur    |INALCO |✓        |         |         |         |         |         |
@@ -18,16 +18,16 @@
 |  G. |Mei       |INALCO |✓        |         |         |         |         |         |
 |  H. |Lijing    |P3     |✓        |         |         |         |         |         |
 |  K. |Afafe     |INALCO |✓        |         |         |         |         |         |
-|  K. |Lila      |P3     |✓        |         |         |         |         |         |
+|  K. |Lila      |P3     |✓        |✓        |         |         |         |         |
 |  K. |Chinatsu  |INALCO |✓        |         |         |         |         |         |
 |  L. |Nicolas   |P3     |✓        |         |         |         |         |         |
-|  L. |Nalae     |P10    |✓        |         |         |         |         |         |
+|  L. |Nalae     |P10    |✓        |✓        |         |         |         |         |
 |  L. |Aurore    |P10    |✓        |         |         |         |         |         |
 |  L. |Wenfei    |P10    |✓        |         |         |         |         |         |
 |  L. |Jianying  |P3     |✓        |         |         |         |         |         |
 |  L. |Xingyu    |P3     |✓        |         |         |         |         |         |
 |  L. |Yaying    |       |✓        |         |         |         |         |         |
-|  M. |Lisa      |P10    |✓        |         |         |         |         |         |
+|  M. |Lisa      |P10    |✓        |✓        |         |         |         |         |
 |  M. |Klementina|INALCO |         |         |         |         |         |         |
 |  M. |Malik     |INALCO |✓        |         |         |         |         |         |
 |  N. |Young-Ju  |       |✓        |         |         |         |         |         |
@@ -42,7 +42,7 @@
 |  S. |Bérénice  |P3     |✓        |         |         |         |         |         |
 |  S. |Hayoung   |INALCO |         |         |         |         |         |         |
 |  S. |Xinyi     |INALCO |✓        |✓        |         |         |         |         |
-|  S. |Valentin-Gabriel|       |✓        |         |         |         |         |         |
+|  S. |Valentin-Gabriel|       |✓        |✓        |         |         |         |         |
 |  S. |Emmet     |P10    |✓        |         |         |         |         |         |
 |  S. |Malick    |P10    |✓        |         |         |         |         |         |
 |  V. |Élodie    |P3     |✓        |✓        |         |         |         |         |
