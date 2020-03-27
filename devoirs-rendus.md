@@ -30,12 +30,12 @@
 |  M. |Lisa      |P10    |✓        |✓        |         |         |         |         |
 |  M. |Klementina|INALCO |         |         |         |         |         |         |
 |  M. |Malik     |INALCO |✓        |         |         |         |         |         |
-|  N. |Young-Ju  |       |✓        |         |         |         |         |         |
+|  N. |Young-Ju  |       |✓        |✓        |         |         |         |         |
 |  N. |Mariam    |P10    |✓        |         |         |         |         |         |
 |  N. |Anna      |INALCO |✓        |✓        |         |         |         |         |
 |  O. |Daria     |P3     |✓        |         |         |         |         |         |
 |  P. |Anaëlle   |INALCO |✓        |         |         |         |         |         |
-|  P. |Solveig   |INALCO |✓        |         |         |         |         |         |
+|  P. |Solveig   |INALCO |✓        |✓        |         |         |         |         |
 |  R. |Sophie    |INALCO |✓        |         |         |         |         |         |
 |  R. |Camille   |INALCO |✓        |         |         |         |         |         |
 |  S. |Martin    |P10    |✓        |✓        |         |         |         |         |
@@ -49,7 +49,7 @@
 |  V. |Markarit  |P10    |✓        |         |         |         |         |         |
 |  V. |Corentin  |       |✓        |         |         |         |         |         |
 |  W. |Xiaooau   |P3     |✓        |         |         |         |         |         |
-|  W. |Qi        |P3     |✓        |         |         |         |         |         |
+|  W. |Qi        |P3     |✓        |✓        |         |         |         |         |
 |  X. |Tian      |P3     |✓        |         |         |         |         |         |
 |  Y. |Kristina  |INALCO |✓        |         |         |         |         |         |
 |  Y. |Yimei     |P3     |✓        |         |         |         |         |         |
