@@ -9,14 +9,14 @@
 |  B. |Marina    |P10    |✓        |         |         |         |         |         |
 |  B. |Arthur    |INALCO |✓        |         |         |         |         |         |
 |  C. |Juliette  |INALCO |✓        |         |         |         |         |         |
-|  C. |France    |INALCO |✓        |         |         |         |         |         |
+|  C. |France    |INALCO |✓        |✓        |         |         |         |         |
 |  C. |Yolène    |       |✓        |         |         |         |         |         |
 |  C. |Daxin     |       |✓        |✓        |         |         |         |         |
 |  D. |Laurianne |       |✓        |         |         |         |         |         |
 |  D. |Martin    |INALCO |✓        |         |         |         |         |         |
 |  D. |Saliou    |INALCO |✓        |         |         |         |         |         |
-|  G. |Mei       |INALCO |✓        |         |         |         |         |         |
-|  H. |Lijing    |P3     |✓        |         |         |         |         |         |
+|  G. |Mei       |INALCO |✓        |✓        |         |         |         |         |
+|  H. |Lijing    |P3     |✓        |✓        |         |         |         |         |
 |  K. |Afafe     |INALCO |✓        |         |         |         |         |         |
 |  K. |Lila      |P3     |✓        |✓        |         |         |         |         |
 |  K. |Chinatsu  |INALCO |✓        |         |         |         |         |         |
