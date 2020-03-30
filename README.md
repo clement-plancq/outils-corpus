@@ -32,13 +32,14 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 ### 30 mars 2020
 
 * [Graphes, Grew, Spacy](outils_corpus-4.html)
+* [notebook](outils_corpus-4.ipynb)
 
 * devoirs : 
- - Avec [Grew-match](http://match.grew.fr/?corpus=UD_French-Sequoia@2.5#), trouvez dans le corpus UD_French-Sequoia@2.5 :
-    - tous les triplets sujet, verbe, objet
-    - les phrases avec sujets inversés
+  - Avec [Grew-match](http://match.grew.fr/?corpus=UD_French-Sequoia@2.5#), trouvez dans le corpus UD_French-Sequoia@2.5 :
+     - tous les triplets sujet, verbe, objet
+     - les phrases avec sujets inversés
 
- - Avec l'aide du module Spacy, extrayez les triplets (sujet, verbe, objet) des phrases suivantes et commentez les éventuelles erreurs ou manques.
+  - Avec l'aide du module Spacy, extrayez les triplets (sujet, verbe, objet) des phrases suivantes et commentez les éventuelles erreurs ou manques.
 
     « Les enfants n'aiment pas trop les asperges. »  
     « Les Français réclament moins d'impôts. »  
