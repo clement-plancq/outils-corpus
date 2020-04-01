@@ -18,7 +18,7 @@
 |  G. |Mei       |INALCO |✓        |✓        |         |         |         |         |
 |  H. |Lijing    |P3     |✓        |✓        |         |         |         |         |
 |  K. |Afafe     |INALCO |✓        |✓        |         |         |         |         |
-|  K. |Lila      |P3     |✓        |✓        |         |         |         |         |
+|  K. |Lila      |P3     |✓        |✓        |✓        |         |         |         |
 |  K. |Chinatsu  |INALCO |✓        |✓        |         |         |         |         |
 |  L. |Nicolas   |P3     |✓        |✓        |         |         |         |         |
 |  L. |Nalae     |P10    |✓        |✓        |         |         |         |         |
@@ -35,7 +35,7 @@
 |  N. |Anna      |INALCO |✓        |✓        |         |         |         |         |
 |  O. |Daria     |P3     |✓        |✓        |         |         |         |         |
 |  P. |Anaëlle   |INALCO |✓        |✓        |         |         |         |         |
-|  P. |Solveig   |INALCO |✓        |✓        |         |         |         |         |
+|  P. |Solveig   |INALCO |✓        |✓        |✓        |         |         |         |
 |  R. |Sophie    |INALCO |✓        |✓        |         |         |         |         |
 |  R. |Camille   |INALCO |✓        |✓        |         |         |         |         |
 |  S. |Martin    |P10    |✓        |✓        |         |         |         |         |
