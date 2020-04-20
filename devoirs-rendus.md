@@ -13,7 +13,7 @@
 |  C. |Yolène    |       |✓        |✓        |✓        |         |         |         |
 |  C. |Daxin     |       |✓        |✓        |✓        |         |         |         |
 |  D. |Laurianne |       |✓        |✓        |✓        |         |         |         |
-|  D. |Martin    |INALCO |✓        |✓        |         |         |         |         |
+|  D. |Martin    |INALCO |✓        |✓        |✓        |         |         |         |
 |  D. |Saliou    |INALCO |✓        |✓        |         |         |         |         |
 |  G. |Mei       |INALCO |✓        |✓        |✓        |         |         |         |
 |  H. |Lijing    |P3     |✓        |✓        |✓        |         |         |         |
@@ -22,11 +22,11 @@
 |  K. |Chinatsu  |INALCO |✓        |✓        |✓        |         |         |         |
 |  L. |Nicolas   |P3     |✓        |✓        |✓        |         |         |         |
 |  L. |Nalae     |P10    |✓        |✓        |✓        |         |         |         |
-|  L. |Aurore    |P10    |✓        |✓        |         |         |         |         |
+|  L. |Aurore    |P10    |✓        |✓        |✓        |         |         |         |
 |  L. |Wenfei    |P10    |✓        |         |✓        |         |         |         |
-|  L. |Jianying  |P3     |✓        |✓        |         |         |         |         |
+|  L. |Jianying  |P3     |✓        |✓        |✓        |         |         |         |
 |  L. |Xingyu    |P3     |✓        |✓        |✓        |         |         |         |
-|  L. |Yaying    |       |✓        |         |✓        |         |         |         |
+|  L. |Yaying    |       |✓        |✓        |✓        |         |         |         |
 |  M. |Lisa      |P10    |✓        |✓        |✓        |         |         |         |
 |  M. |Klementina|INALCO |         |         |         |         |         |         |
 |  M. |Malik     |INALCO |✓        |✓        |✓        |         |         |         |
@@ -37,7 +37,7 @@
 |  P. |Anaëlle   |INALCO |✓        |✓        |✓        |         |         |         |
 |  P. |Solveig   |INALCO |✓        |✓        |✓        |         |         |         |
 |  R. |Sophie    |INALCO |✓        |✓        |✓        |         |         |         |
-|  R. |Camille   |INALCO |✓        |✓        |         |         |         |         |
+|  R. |Camille   |INALCO |✓        |✓        |✓        |         |         |         |
 |  S. |Martin    |P10    |✓        |✓        |✓        |         |         |         |
 |  S. |Bérénice  |P3     |✓        |         |         |         |         |         |
 |  S. |Hayoung   |INALCO |         |         |         |         |         |         |
@@ -48,7 +48,7 @@
 |  V. |Élodie    |P3     |✓        |✓        |         |         |         |         |
 |  V. |Markarit  |P10    |✓        |✓        |         |         |         |         |
 |  V. |Corentin  |       |✓        |✓        |✓        |         |         |         |
-|  W. |Xiaooau   |P3     |✓        |✓        |         |         |         |         |
+|  W. |Xiaooau   |P3     |✓        |✓        |✓        |         |         |         |
 |  W. |Qi        |P3     |✓        |✓        |✓        |         |         |         |
 |  X. |Tian      |P3     |✓        |✓        |✓        |         |         |         |
 |  Y. |Kristina  |INALCO |✓        |✓        |✓        |         |         |         |
