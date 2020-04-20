@@ -46,7 +46,7 @@
 |  S. |Emmet     |P10    |✓        |✓        |✓        |         |         |         |
 |  S. |Malick    |P10    |✓        |✓        |✓        |         |         |         |
 |  V. |Élodie    |P3     |✓        |✓        |         |         |         |         |
-|  V. |Markarit  |P10    |✓        |✓        |         |         |         |         |
+|  V. |Markarit  |P10    |✓        |✓        |✓        |         |         |         |
 |  V. |Corentin  |       |✓        |✓        |✓        |         |         |         |
 |  W. |Xiaooau   |P3     |✓        |✓        |✓        |         |         |         |
 |  W. |Qi        |P3     |✓        |✓        |✓        |         |         |         |
