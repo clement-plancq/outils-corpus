@@ -53,8 +53,13 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 
 ### 20 avril 2019
 
-* Spacy
+* [Notebook de prise en main de Spacy](outils_corpus-5.ipynb)
 
+* Devoirs (*au choix*) :
+  * Modifiez le script de vectorisation du cours d'[introduction à la fouille de textes](https://loicgrobol.github.io/intro-fouille-textes/) de façon à (1) utiliser la tokenisation par Spacy et (2) ajouter un trait comptant le nombre d'entités nommées par documents. Vous me rendez un script en précisant en commentaire où sont vos modifications.
+  * Ré-entraînez un modèle de reconnaissance d'EN pour l'adapter à : soit deux textes sur l'actualité de l'industrie du jeu vidéo ([ici](https://www.cnews.fr/vie-numerique/2020-04-09/confinement-le-service-de-jeux-video-stadia-est-gratuit-pendant-deux-mois) et [ici](https://www.20minutes.fr/high-tech/2758007-20200409-google-stadia-lancement-version-gratuite-deux-mois-abonnement-pro-egalement-offerts)), soit deux poésies de François Villon ([ici](https://www.poetica.fr/poeme-5050/francois-villon-ballade-des-dames-du-temps-jadis/) et [ici](https://www.poetica.fr/poeme-5052/francois-villon-ballade-des-seigneurs-du-temps-jadis/)).  
+  Vous pouvez utiliser d'autres textes si ça vous chante (de chansons de hip-hop, ou en français de la francophonie par exemple).  
+  Vous me rendez un script ou un notebook avec des commentaires sur les résultats.
 
 ### 27 avril 2019
 
