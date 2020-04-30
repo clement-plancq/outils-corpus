@@ -9,7 +9,7 @@
 |  B. |Marina    |P10    |✓        |✓        |✓        |✓        |         |         |
 |  B. |Arthur    |INALCO |✓        |✓        |✓        |✓        |         |         |
 |  C. |Juliette  |INALCO |✓        |✓        |✓        |✓        |         |         |
-|  C. |France    |INALCO |✓        |✓        |✓        |✓        |         |         |
+|  C. |France    |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  C. |Yolène    |       |✓        |✓        |✓        |✓        |         |         |
 |  C. |Daxin     |       |✓        |✓        |✓        |✓        |         |         |
 |  D. |Laurianne |       |✓        |✓        |✓        |✓        |         |         |
@@ -35,7 +35,7 @@
 |  N. |Anna      |INALCO |✓        |✓        |✓        |✓        |         |         |
 |  O. |Daria     |P3     |✓        |✓        |✓        |✓        |         |         |
 |  P. |Anaëlle   |INALCO |✓        |✓        |✓        |         |         |         |
-|  P. |Solveig   |INALCO |✓        |✓        |✓        |✓        |         |         |
+|  P. |Solveig   |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  R. |Sophie    |INALCO |✓        |✓        |✓        |✓        |         |         |
 |  R. |Camille   |INALCO |✓        |✓        |✓        |✓        |         |         |
 |  S. |Martin    |P10    |✓        |✓        |✓        |✓        |         |         |
@@ -43,9 +43,9 @@
 |  S. |Hayoung   |INALCO |✓        |✓        |         |         |         |         |
 |  S. |Xinyi     |INALCO |✓        |✓        |✓        |✓        |         |         |
 |  S. |Valentin-Gabriel|       |✓        |✓        |✓        |✓        |         |         |
-|  S. |Emmet     |P10    |✓        |✓        |✓        |✓        |         |         |
+|  S. |Emmet     |P10    |✓        |✓        |✓        |✓        |✓        |         |
 |  S. |Malick    |P10    |✓        |✓        |✓        |✓        |         |         |
-|  V. |Élodie    |P3     |✓        |✓        |✓        |         |         |         |
+|  V. |Élodie    |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  V. |Markarit  |P10    |✓        |✓        |✓        |✓        |         |         |
 |  V. |Corentin  |       |✓        |✓        |✓        |✓        |         |         |
 |  W. |Xiaooau   |P3     |✓        |✓        |✓        |✓        |         |         |
