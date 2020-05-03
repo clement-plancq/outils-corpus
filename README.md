@@ -8,7 +8,9 @@
 ## Évaluation
 
 Un devoir à rendre après chaque séance.  
-6 séances, 6 devoirs, 6 notes. La note finale sera la moyenne des notes.
+6 séances, ~6~5 devoirs, ~6~5 notes. La note finale sera la moyenne des notes.
+
+Tous vos devoirs devront m'être parvenus avant le 11 mai 2020.
 
 Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-rendus.md)
 
@@ -76,6 +78,8 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 
 * [Word embeddings](outils_corpus-7.html)
 * [notebook](outils_corpus-7.ipynb)
+
+Pas de devoirs pour cette séance.
 
 ## Références
 
