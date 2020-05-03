@@ -74,7 +74,8 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 
 ### 4 mai 2019
 
-* Word embeddings
+* [Word embeddings](outils_corpus-7.html)
+* [notebook](outils_corpus-7.ipynb)
 
 ## Références
 
