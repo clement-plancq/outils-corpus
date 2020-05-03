@@ -8,7 +8,7 @@
 ## Évaluation
 
 Un devoir à rendre après chaque séance.  
-6 séances, ~6~5 devoirs, ~6~5 notes. La note finale sera la moyenne des notes.
+6 séances, ~~6~~5 devoirs, ~~6~~5 notes. La note finale sera la moyenne des notes.
 
 Tous vos devoirs devront m'être parvenus avant le 11 mai 2020.
 
