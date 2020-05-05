@@ -34,7 +34,7 @@
 |  N. |Mariam    |P10    |✓        |✓        |✓        |✓        |✓        |         |
 |  N. |Anna      |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  O. |Daria     |P3     |✓        |✓        |✓        |✓        |✓        |         |
-|  P. |Anaëlle   |INALCO |✓        |✓        |✓        |         |         |         |
+|  P. |Anaëlle   |INALCO |✓        |✓        |✓        |✓        |         |         |
 |  P. |Solveig   |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  R. |Sophie    |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  R. |Camille   |INALCO |✓        |✓        |✓        |✓        |✓        |         |
