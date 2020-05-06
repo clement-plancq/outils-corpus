@@ -22,7 +22,7 @@
 |  K. |Chinatsu  |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  L. |Nicolas   |P3     |✓        |✓        |✓        |         |         |         |
 |  L. |Nalae     |P10    |✓        |✓        |✓        |✓        |✓        |         |
-|  L. |Aurore    |P10    |✓        |✓        |✓        |✓        |         |         |
+|  L. |Aurore    |P10    |✓        |✓        |✓        |✓        |✓        |         |
 |  L. |Wenfei    |P10    |✓        |✓        |✓        |✓        |✓        |         |
 |  L. |Jianying  |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  L. |Xingyu    |P3     |✓        |✓        |✓        |✓        |✓        |         |
