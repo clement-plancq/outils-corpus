@@ -13,7 +13,7 @@
 |  C. |Yolène    |       |✓        |✓        |✓        |✓        |✓        |         |
 |  C. |Daxin     |       |✓        |✓        |✓        |✓        |✓        |         |
 |  D. |Laurianne |       |✓        |✓        |✓        |✓        |✓        |         |
-|  D. |Martin    |INALCO |✓        |✓        |✓        |         |         |         |
+|  D. |Martin    |INALCO |✓        |✓        |✓        |         |✓        |         |
 |  D. |Saliou    |INALCO |✓        |✓        |         |         |         |         |
 |  G. |Mei       |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  H. |Lijing    |P3     |✓        |✓        |✓        |✓        |✓        |         |
@@ -34,7 +34,7 @@
 |  N. |Mariam    |P10    |✓        |✓        |✓        |✓        |✓        |         |
 |  N. |Anna      |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  O. |Daria     |P3     |✓        |✓        |✓        |✓        |✓        |         |
-|  P. |Anaëlle   |INALCO |✓        |✓        |✓        |✓        |         |         |
+|  P. |Anaëlle   |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  P. |Solveig   |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  R. |Sophie    |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  R. |Camille   |INALCO |✓        |✓        |✓        |✓        |✓        |         |
