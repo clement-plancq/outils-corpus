@@ -13,14 +13,13 @@
 |  C. |Yolène    |       |✓        |✓        |✓        |✓        |✓        |         |
 |  C. |Daxin     |       |✓        |✓        |✓        |✓        |✓        |         |
 |  D. |Laurianne |       |✓        |✓        |✓        |✓        |✓        |         |
-|  D. |Martin    |INALCO |✓        |✓        |✓        |         |✓        |         |
+|  D. |Martin    |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  D. |Saliou    |INALCO |✓        |✓        |         |         |         |         |
 |  G. |Mei       |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  H. |Lijing    |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  K. |Afafe     |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  K. |Lila      |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  K. |Chinatsu  |INALCO |✓        |✓        |✓        |✓        |✓        |         |
-|  L. |Nicolas   |P3     |✓        |✓        |✓        |         |         |         |
 |  L. |Nalae     |P10    |✓        |✓        |✓        |✓        |✓        |         |
 |  L. |Aurore    |P10    |✓        |✓        |✓        |✓        |✓        |         |
 |  L. |Wenfei    |P10    |✓        |✓        |✓        |✓        |✓        |         |
@@ -32,6 +31,7 @@
 |  M. |Malik     |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  N. |Young-Ju  |       |✓        |✓        |✓        |✓        |✓        |         |
 |  N. |Mariam    |P10    |✓        |✓        |✓        |✓        |✓        |         |
+|  N. |Léa       |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  N. |Anna      |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  O. |Daria     |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  P. |Anaëlle   |INALCO |✓        |✓        |✓        |✓        |✓        |         |
@@ -44,7 +44,7 @@
 |  S. |Xinyi     |INALCO |✓        |✓        |✓        |✓        |✓        |         |
 |  S. |Valentin-Gabriel|       |✓        |✓        |✓        |✓        |✓        |         |
 |  S. |Emmet     |P10    |✓        |✓        |✓        |✓        |✓        |         |
-|  S. |Malick    |P10    |✓        |✓        |✓        |✓        |         |         |
+|  S. |Malick    |P10    |✓        |✓        |✓        |✓        |✓        |         |
 |  V. |Élodie    |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  V. |Markarit  |P10    |✓        |✓        |✓        |✓        |✓        |         |
 |  V. |Corentin  |       |✓        |✓        |✓        |✓        |✓        |         |
