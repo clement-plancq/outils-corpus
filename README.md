@@ -16,7 +16,7 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 
 ## Séances
 
-### 15 mars 2021
+### 15 mars 2021 (amphi7)
 
 * [intro, définitions, formats d'annotations, outils de requêtes](outils_corpus-1.html)
 
@@ -24,13 +24,13 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 
 ### 22 mars 2021
 
-### 29 mars 2021
+### 29 mars 2021 (amphi 7)
 
 ### 12 avril 2021
 
-### 3 mai 2021
+### 3 mai 2021 (amphi 7)
 
-### 10 mai 2012
+### 10 mai 2021
 
 ## Références
 

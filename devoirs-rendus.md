@@ -1,3 +1,3 @@
 
-# Outils de traitement de corpus – M1 Plurital 2019/2020
+# Outils de traitement de corpus – M1 Plurital 2020/2021
 ## Rendus des devoirs
