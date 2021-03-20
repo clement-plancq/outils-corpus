@@ -7,3 +7,7 @@
 |  H. |Xiaomin   |P3     |✓        |         |         |         |         |         |
 |  Q. |Yihan     |P3     |✓        |         |         |         |         |         |
 |  X. |Jiaqi     |P3     |✓        |         |         |         |         |         |
+|  L. |Alexandra |       |✓        |         |         |         |         |         |
+|  A. |Léa       |       |✓        |         |         |         |         |         |
+|  M. |Gaëlle    |P3     |✓        |         |         |         |         |         |
+|  A. |Nora      |Inalco |✓        |         |         |         |         |         |
