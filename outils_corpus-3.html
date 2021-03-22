@@ -40,19 +40,13 @@
 
 <section id="comment-extraire-les-informations-dun-document" class="slide level3">
 <h3>Comment extraire les informations d’un document ?</h3>
-<p>Travail sur un <a href="http://www.lemonde.fr/international/article/2017/03/26/l-opposant-russe-alexei-navalny-et-130-militants-interpelles-lors-d-une-manifestation-anticorruption-a-moscou_5101022_3210.html">article du Monde</a> (26/03/2017)</p>
 <p>Des démos de produits commerciaux permettent de se faire une idée de ce que propose l’industrie :</p>
 <ul>
 <li><a href="https://www.lexalytics.com/demo">Lexalytics</a> (la démo nécéssite une inscription)</li>
 <li><a href="https://natural-language-understanding-demo.ng.bluemix.net/">Watson</a></li>
 <li><a href="https://cloud.google.com/natural-language">Google Cloud</a></li>
 </ul>
-<p>Essayez Watson en lui soumettant cette URL issue du NYTimes : https://www.nytimes.com/2017/03/26/world/europe/moscow-protests-aleksei-navalny.html</p>
-</section>
-<section id="comment-extraire-les-informations-dun-document-1" class="slide level3">
-<h3>Comment extraire les informations d’un document ?</h3>
-<p>Quid de la qualité de la détection des entités et des mots-clés ?<br />
-Comparez la détection des entités nommées avec la <a href="https://demos.explosion.ai/displacy-ent/">démo de spacy.io</a></p>
+<p>Essayez Watson en lui soumettant cette URL issue du NYTimes : https://www.nytimes.com/2021/03/21/obituaries/nawal-el-saadawi-dead.html</p>
 </section>
 <section id="comment-extraire-les-mots-clés-dun-document" class="slide level3">
 <h3>Comment extraire les mots-clés d’un document ?</h3>
@@ -74,9 +68,9 @@ Comparez la détection des entités nommées avec la <a href="https://demos.expl
 </section>
 <section id="reconnaissance-dentités-nommées-ner" class="slide level3">
 <h3>Reconnaissance d’entités nommées (NER)</h3>
-<p><a href="http://nlp.stanford.edu:8080/ner/">Démo</a> du Stanford Named Entity Recognizer (NER)</p>
-<p>Modèles disponibles pour l’anglais, le chinois et l’allemand. Essayez avec le contenu de l’article du NYTimes</p>
-<p>Utilisez l’interface en ligne de <a href="http://apps.lattice.cnrs.fr/sem">SEM</a> pour détecter les entités nommées du texte issu du Monde</p>
+<p><a href="http://stanza.run/">Démo</a> de <a href="https://stanfordnlp.github.io/stanza/">Stanza</a> (Stanford)</p>
+<p>Comparez la détection des entités nommées avec la <a href="https://demos.explosion.ai/displacy-ent/">démo de spacy.io</a></p>
+</p>
 </section>
 <section id="collocations" class="slide level3">
 <h3>Collocations</h3>
@@ -92,14 +86,14 @@ Comparez la détection des entités nommées avec la <a href="https://demos.expl
 <ul>
 <li><p>Notion essentielle pour la linguistique contextualiste et la linguistique de corpus</p></li>
 <li><p>L’identification des collocations est un enjeu important en traduction automatique, en génération de texte et en extraction d’information</p></li>
-<li><p>Les linguistes ne s’entendent pas sur un seule définition de la <em>collocation</em></p></li>
+<li><p>Les linguistes ne s’entendent pas sur une seule définition de la <em>collocation</em></p></li>
 <li><p>La notion de <em>collocation</em> est difficilement formalisable</p></li>
 </ul>
 </section>
 <section id="collocations-2" class="slide level3">
 <h3>Collocations</h3>
 <ul>
-<li><p>cooccurrence &gt; collocation &gt; locution figée / expression idiomatique <em>nouveaux dispositifs</em> &gt; <em>projet de loi</em>, <em>surveillance massive</em> &gt; <em>casser sa pipe</em>, <em>hôtel de ville</em></p></li>
+<li><p>cooccurrence &gt; collocation &gt; locution figée / expression idiomatique<br/> <em>nouveaux dispositifs</em> &gt; <em>projet de loi</em>, <em>surveillance massive</em> &gt; <em>casser sa pipe</em>, <em>hôtel de ville</em></p></li>
 <li>Les collocations :
 <ul>
 <li>ont une compositionnalité limitée,</li>
@@ -109,16 +103,16 @@ Comparez la détection des entités nommées avec la <a href="https://demos.expl
 </ul>
 </section>
 <section id="comment-identifier-les-collocations" class="slide level3">
-<h3>Comment identifier les collocations ?</h3>
+<h3>Comment identifier les collocations ?</h3>
 <h4 id="patrons-syntaxiques">Patrons syntaxiques</h4>
 <ol type="1">
 <li>Calculer les fréquences des mots adjacents (<em>bigrammes</em>) du fichier taggué</li>
-<li>Rafiner cette liste en excluant les bigrammes ne comportant que des mots vides</li>
+<li>Raffiner cette liste en excluant les bigrammes ne comportant que des mots vides</li>
 <li>Utiliser une liste de patrons syntaxiques pour filtrer les bigrammes. ex: N N, N A, A N, …</li>
 </ol>
 </section>
 <section id="comment-identifier-les-collocations-1" class="slide level3">
-<h3>Comment identifier les collocations ?</h3>
+<h3>Comment identifier les collocations ?</h3>
 <h4 id="statistiques">Statistiques</h4>
 <ul>
 <li>Test statistique (test d’hypothèse) pour déterminer si l’association de deux mots est dûe au hasard ou non.<br />

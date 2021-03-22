@@ -132,23 +132,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
 <li>Pour résoudre l’ambiguïté on peut utiliser un lexique et/ou des régles comme <code>l’apostrophe suivie d’une voyelle est un séparateur</code></li>
 </ul></li>
-<li>Les séparateurs de mots ne sont pas uniquement utilisés en TAL :
-<ul>
-<li>sélection de mot avec un double clic</li>
-<li>recherche de mot dans une page (« Mots entiers » dans Firefox par exemple)</li>
-<li>correction automatique</li>
-</ul></li>
 </ul>
 </section>
 <section id="types-tokens-mots-3" class="slide level3">
 <h3>Types / tokens / mots</h3>
 <ul>
-<li>Le consortium Unicode a défini ces séparateurs de mot dans l’<a href="http://www.unicode.org/reports/tr29/#Word_Boundaries">annexe #29</a></li>
-<li>Testez la différence entre ces deux instructions</li>
+  <li>Les séparateurs de mots ne sont pas uniquement utilisés en TAL :
+    <ul>
+    <li>sélection de mot avec un double clic</li>
+    <li>recherche de mot dans une page (« Mots entiers » dans Firefox par exemple)</li>
+    <li>correction automatique</li>
+    </ul></li>
+    <li>Le consortium Unicode a défini ces séparateurs de mot dans l’<a href="http://www.unicode.org/reports/tr29/#Word_Boundaries">annexe #29</a></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb1-1" data-line-number="1">re.split(<span class="vs">r&#39;\W&#39;</span>, <span class="st">&quot;il a fait beau aujourd&#39;hui, on fait du vélo ?&quot;</span>, re.U)</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">re.split(<span class="vs">r&#39;\W&#39;</span>, <span class="st">&quot;il a fait beau aujourd&#39;hui, on fait du vélo ?&quot;</span>, re.L)</a>
-<a class="sourceLine" id="cb1-3" data-line-number="3"><span class="co"># oubliez re.L pour les séparateurs. re.Locale ne fonctionne que sur les bytestrings</span></a></code></pre></div>
 </section>
 <section id="types-tokens-mots-4" class="slide level3">
 <h3>Types / tokens / mots</h3>

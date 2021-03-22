@@ -24,6 +24,16 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 
 ### 22 mars 2021
 
+### 23 mars 2020
+* [Mots, types, tokens](outils_corpus-2.html)
+* [Extraction d'informations](outils_corpus-3.html)
+
+* devoir : calculer le ratio type/token pour les discours sur l'état de l'Union de [2016](files/stateoftheunion2016.txt) et [2017](files/stateoftheunion2017.txt)
+
+  Pour la tokenization, utilisez le [tokenizer de Stanford](https://nlp.stanford.edu/software/tokenizer.shtml), [NLTK](http://www.nltk.org) ou [Spacy](https://spacy.io/)
+  Vous devez envoyer le résultat ainsi que la description de vos traitements (scripts, outils, …)
+
+
 ### 29 mars 2021 (amphi 7)
 
 ### 12 avril 2021
