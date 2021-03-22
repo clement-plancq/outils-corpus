@@ -22,3 +22,12 @@
 |  Q. |Haiyan    |P3     |✓        |         |         |         |         |         |
 |  M. |Oscar     |P3     |✓        |         |         |         |         |         |
 |  Z. |Xinyi     |Inalco |✓        |         |         |         |         |         |
+|  O. |Yagmur    |P3     |✓        |         |         |         |         |         |
+|  T. |Thi Theu  |Inalco |✓        |         |         |         |         |         |
+|  J. |Aurélie   |P10    |✓        |         |         |         |         |         |
+|  Q. |Zhuang    |P3     |✓        |         |         |         |         |         |
+|  H. |Santiago  |P3     |✓        |         |         |         |         |         |
+|  P. |Élodie    |Inalco |✓        |         |         |         |         |         |
+|  B. |Tristan   |Inalco |✓        |         |         |         |         |         |
+|  A. |Wissal    |       |✓        |         |         |         |         |         |
+|  A. |Nurul Zulaikha|Inalco |✓        |         |         |         |         |         |
