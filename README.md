@@ -24,7 +24,6 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 
 ### 22 mars 2021
 
-### 23 mars 2020
 * [Mots, types, tokens](outils_corpus-2.html)
 * [Extraction d'informations](outils_corpus-3.html)
 
