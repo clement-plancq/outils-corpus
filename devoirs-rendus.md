@@ -19,6 +19,7 @@
 |  H. |Xiaomin   |P3     |✓        |         |         |         |         |         |
 |  J. |Aurélie   |P10    |✓        |         |         |         |         |         |
 |  L. |Alexandra |Inalco |✓        |         |         |         |         |         |
+|  L. |Élise     |Inalco |✓        |         |         |         |         |         |
 |  L. |Lufei     |       |✓        |         |         |         |         |         |
 |  M. |Menel     |P10    |✓        |         |         |         |         |         |
 |  M. |Gaëlle    |P3     |✓        |         |         |         |         |         |
@@ -33,7 +34,7 @@
 |  S. |Hayoung   |       |✓        |         |         |         |         |         |
 |  T. |Thi Theu  |Inalco |✓        |         |         |         |         |         |
 |  W. |Qishen    |       |✓        |         |         |         |         |         |
-|  X. |Jiaqi     |P3     |✓        |         |         |         |         |         |
+|  X. |Jiaqi     |P3     |✓        |✓        |         |         |         |         |
 |  X. |Jinyuan   |P10    |✓        |         |         |         |         |         |
 |  Y. |Mina      |       |✓        |         |         |         |         |         |
 |  Z. |Xinyi     |Inalco |✓        |         |         |         |         |         |
