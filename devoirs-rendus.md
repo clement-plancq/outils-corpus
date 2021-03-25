@@ -18,7 +18,7 @@
 |  H. |Santiago  |P3     |✓        |         |         |         |         |         |
 |  H. |Xiaomin   |P3     |✓        |         |         |         |         |         |
 |  J. |Aurélie   |P10    |✓        |         |         |         |         |         |
-|  L. |Alexandra |Inalco |✓        |         |         |         |         |         |
+|  L. |Alexandra |Inalco |✓        |✓        |         |         |         |         |
 |  L. |Élise     |Inalco |✓        |✓        |         |         |         |         |
 |  L. |Lufei     |       |✓        |         |         |         |         |         |
 |  M. |Menel     |P10    |✓        |         |         |         |         |         |
