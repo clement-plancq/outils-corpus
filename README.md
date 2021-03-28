@@ -35,6 +35,24 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 
 ### 29 mars 2021 (amphi 7)
 
+* [Graphes, Grew, Spacy](outils_corpus-4.html)
+* [notebook](outils_corpus-4.ipynb)
+
+* devoirs : 
+  - Avec [Grew-match](http://match.grew.fr/?corpus=UD_French-Sequoia@2.5#), trouvez dans le corpus UD_French-Sequoia@2.5 :
+     - tous les triplets sujet, verbe, objet
+     - les phrases avec sujets inversés  
+  *Vous me rendez deux requêtes (dans le corps de mail ou un fichier txt)*
+
+  - Avec l'aide du module Spacy, extrayez les triplets (sujet, verbe, objet) des phrases suivantes et commentez les éventuelles erreurs ou manques.
+
+    « Les enfants n'aiment pas trop les asperges. »  
+    « Les Français réclament moins d'impôts. »  
+    « Les acacias donnent un miel ambré, limpide et fluide. »  
+    « L'équipe fait porter le chapeau à l'arbitrage. »  
+    « Des nuées de milliards d'insectes, venus de la péninsule Arabique, s'abattent sur la Corne de l'Afrique et dévorent les cultures, mettant en péril la sécurité alimentaire de la région. »  
+  *Vous me rendez le notebook completé ou un script Python commenté*
+
 ### 12 avril 2021
 
 ### 3 mai 2021 (amphi 7)
