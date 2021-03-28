@@ -10,7 +10,7 @@
 |  A. |Étienne   |Inalco |         |✓        |         |         |         |         |
 |  A. |Nurul Zulaikha|Inalco |✓        |         |         |         |         |         |
 |  B. |Kirsten   |Inalco |✓        |         |         |         |         |         |
-|  B. |Tristan   |Inalco |✓        |         |         |         |         |         |
+|  B. |Tristan   |Inalco |✓        |✓        |         |         |         |         |
 |  D. |Caroline  |       |✓        |✓        |         |         |         |         |
 |  G. |Thomas    |Inalco |✓        |         |         |         |         |         |
 |  G. |Bertisa   |       |✓        |         |         |         |         |         |
@@ -20,20 +20,20 @@
 |  J. |Aurélie   |P10    |✓        |         |         |         |         |         |
 |  L. |Alexandra |Inalco |✓        |✓        |         |         |         |         |
 |  L. |Élise     |Inalco |✓        |✓        |         |         |         |         |
-|  L. |Lufei     |       |✓        |         |         |         |         |         |
+|  L. |Lufei     |       |✓        |✓        |         |         |         |         |
 |  M. |Menel     |P10    |✓        |         |         |         |         |         |
 |  M. |Gaëlle    |P3     |✓        |✓        |         |         |         |         |
 |  M. |Oscar     |P3     |✓        |         |         |         |         |         |
 |  N. |Julie     |       |✓        |         |         |         |         |         |
 |  O. |Yagmur    |P3     |✓        |         |         |         |         |         |
 |  P. |Élodie    |Inalco |✓        |✓        |         |         |         |         |
-|  P. |Aleksandra|Inalco |✓        |         |         |         |         |         |
+|  P. |Aleksandra|Inalco |✓        |✓        |         |         |         |         |
 |  Q. |Zhuang    |P3     |✓        |         |         |         |         |         |
 |  Q. |Haiyan    |P3     |✓        |         |         |         |         |         |
 |  Q. |Yihan     |P3     |✓        |✓        |         |         |         |         |
 |  S. |Hayoung   |       |✓        |         |         |         |         |         |
 |  T. |Thi Theu  |Inalco |✓        |         |         |         |         |         |
-|  W. |Qishen    |       |✓        |         |         |         |         |         |
+|  W. |Qishen    |       |✓        |✓        |         |         |         |         |
 |  X. |Jiaqi     |P3     |✓        |✓        |         |         |         |         |
 |  X. |Jinyuan   |P10    |✓        |✓        |         |         |         |         |
 |  Y. |Mina      |       |✓        |         |         |         |         |         |
