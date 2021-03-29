@@ -8,7 +8,7 @@
 |  A. |Léa       |Inalco |✓        |✓        |         |         |         |         |
 |  A. |Nora      |Inalco |✓        |✓        |         |         |         |         |
 |  A. |Étienne   |Inalco |         |✓        |         |         |         |         |
-|  A. |Nurul Zulaikha|Inalco |✓        |         |         |         |         |         |
+|  A. |Nurul Zulaikha|Inalco |✓        |✓        |         |         |         |         |
 |  B. |Kirsten   |Inalco |✓        |✓        |         |         |         |         |
 |  B. |Tristan   |Inalco |✓        |✓        |         |         |         |         |
 |  C. |Alexandra |Inalco |✓        |✓        |         |         |         |         |
@@ -19,7 +19,7 @@
 |  H. |Marina    |Inalco |✓        |✓        |         |         |         |         |
 |  H. |Santiago  |P3     |✓        |✓        |         |         |         |         |
 |  H. |Xiaomin   |P3     |✓        |         |         |         |         |         |
-|  J. |Aurélie   |P10    |✓        |         |         |         |         |         |
+|  J. |Aurélie   |P10    |✓        |✓        |         |         |         |         |
 |  L. |Alexandra |Inalco |✓        |✓        |         |         |         |         |
 |  L. |Élise     |Inalco |✓        |✓        |         |         |         |         |
 |  L. |Lufei     |       |✓        |✓        |         |         |         |         |
