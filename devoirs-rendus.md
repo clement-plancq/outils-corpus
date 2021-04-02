@@ -15,7 +15,7 @@
 |  D. |Caroline  |       |✓        |✓        |         |         |         |         |
 |  G. |Vanessa   |       |✓        |✓        |         |         |         |         |
 |  G. |Thomas    |Inalco |✓        |✓        |         |         |         |         |
-|  G. |Bertisa   |       |✓        |         |         |         |         |         |
+|  G. |Bertisa   |       |✓        |✓        |         |         |         |         |
 |  H. |Marina    |Inalco |✓        |✓        |         |         |         |         |
 |  H. |Santiago  |P3     |✓        |✓        |         |         |         |         |
 |  H. |Xiaomin   |P3     |✓        |         |         |         |         |         |
