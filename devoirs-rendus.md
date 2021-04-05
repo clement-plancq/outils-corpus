@@ -23,7 +23,7 @@
 |  L. |Alexandra |Inalco |✓        |✓        |         |         |         |         |
 |  L. |Élise     |Inalco |✓        |✓        |         |         |         |         |
 |  L. |Lufei     |       |✓        |✓        |         |         |         |         |
-|  M. |Menel     |P10    |✓        |         |         |         |         |         |
+|  M. |Menel     |P10    |✓        |✓        |✓        |         |         |         |
 |  M. |Gaëlle    |P3     |✓        |✓        |         |         |         |         |
 |  M. |Oscar     |P3     |✓        |✓        |         |         |         |         |
 |  N. |Julie     |       |✓        |✓        |         |         |         |         |
