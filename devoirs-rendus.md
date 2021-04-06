@@ -4,12 +4,13 @@
 
 | Nom | Prénom   | Univ. | cours 1 | cours 2 | cours 3 | cours 4 | cours 5 | cours 6 |
 |:---:|:--------:|:-----:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|  A. |Wissal    |       |✓        |✓        |         |         |         |         |
+|  A. |Wissal    |       |✓        |✓        |✓        |         |         |         |
 |  A. |Léa       |Inalco |✓        |✓        |         |         |         |         |
 |  A. |Nora      |Inalco |✓        |✓        |         |         |         |         |
 |  A. |Étienne   |Inalco |         |✓        |         |         |         |         |
 |  A. |Nurul Zulaikha|Inalco |✓        |✓        |         |         |         |         |
 |  B. |Kirsten   |Inalco |✓        |✓        |         |         |         |         |
+|  B. |Noélie    |Inalco |✓        |✓        |✓        |         |         |         |
 |  B. |Tristan   |Inalco |✓        |✓        |         |         |         |         |
 |  C. |Alexandra |Inalco |✓        |✓        |         |         |         |         |
 |  D. |Caroline  |       |✓        |✓        |         |         |         |         |
