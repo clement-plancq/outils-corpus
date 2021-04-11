@@ -55,6 +55,11 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 
 ### 12 avril 2021
 
+* [Notebook de prise en main de Spacy](outils_corpus-5.ipynb)
+* Devoir :  
+  À l'aide de la bibliothèque Spacy vous relèverez les personnages mentionnés dans Le ventre de Paris.  
+  Pour chacun des personnages qui apparaissent au moins trois fois, vous indiquerez les verbes dont ils sont sujet.
+
 ### 3 mai 2021 (amphi 7)
 
 ### 10 mai 2021
