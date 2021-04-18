@@ -30,14 +30,14 @@
 |  N. |Julie     |       |✓        |✓        |✓        |         |         |         |
 |  O. |Yagmur    |P3     |✓        |✓        |✓        |         |         |         |
 |  P. |Élodie    |Inalco |✓        |✓        |✓        |         |         |         |
-|  P. |Aleksandra|Inalco |✓        |✓        |         |         |         |         |
+|  P. |Aleksandra|Inalco |✓        |✓        |✓        |         |         |         |
 |  Q. |Zhuang    |P3     |✓        |✓        |✓        |         |         |         |
 |  Q. |Haiyan    |P3     |✓        |✓        |✓        |         |         |         |
-|  Q. |Yihan     |P3     |✓        |✓        |✓        |         |         |         |
+|  Q. |Yihan     |P3     |✓        |✓        |✓        |✓        |         |         |
 |  S. |Hayoung   |Inalco |✓        |✓        |✓        |         |         |         |
 |  T. |Thi Theu  |Inalco |✓        |✓        |✓        |         |         |         |
 |  W. |Qishen    |       |✓        |✓        |✓        |         |         |         |
 |  X. |Jiaqi     |P3     |✓        |✓        |✓        |         |         |         |
-|  X. |Jinyuan   |P10    |✓        |✓        |✓        |         |         |         |
+|  X. |Jinyuan   |P10    |✓        |✓        |✓        |✓        |         |         |
 |  Y. |Mina      |Inalco |✓        |✓        |✓        |         |         |         |
 |  Z. |Xinyi     |Inalco |✓        |✓        |✓        |         |         |         |
