@@ -6,10 +6,10 @@
 |:---:|:--------:|:-----:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |  A. |Wissal    |       |✓        |✓        |✓        |         |         |         |
 |  A. |Léa       |Inalco |✓        |✓        |         |         |         |         |
-|  A. |Nora      |Inalco |✓        |✓        |✓        |         |         |         |
+|  A. |Nora      |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  A. |Étienne   |Inalco |         |✓        |✓        |         |         |         |
 |  A. |Nurul Zulaikha|Inalco |✓        |✓        |✓        |         |         |         |
-|  B. |Kirsten   |Inalco |✓        |✓        |✓        |         |         |         |
+|  B. |Kirsten   |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  B. |Noélie    |Inalco |✓        |✓        |✓        |         |         |         |
 |  B. |Tristan   |Inalco |✓        |✓        |✓        |         |         |         |
 |  C. |Alexandra |Inalco |✓        |✓        |✓        |         |         |         |
@@ -22,8 +22,8 @@
 |  H. |Xiaomin   |P3     |✓        |✓        |         |         |         |         |
 |  J. |Aurélie   |P10    |✓        |✓        |✓        |         |         |         |
 |  L. |Alexandra |Inalco |✓        |✓        |✓        |         |         |         |
-|  L. |Élise     |Inalco |✓        |✓        |         |         |         |         |
-|  L. |Lufei     |       |✓        |✓        |✓        |         |         |         |
+|  L. |Élise     |Inalco |✓        |✓        |✓        |✓        |         |         |
+|  L. |Lufei     |       |✓        |✓        |✓        |✓        |         |         |
 |  M. |Menel     |P10    |✓        |✓        |✓        |         |         |         |
 |  M. |Gaëlle    |P3     |✓        |✓        |✓        |         |         |         |
 |  M. |Oscar     |P3     |✓        |✓        |✓        |         |         |         |
@@ -31,10 +31,10 @@
 |  O. |Yagmur    |P3     |✓        |✓        |✓        |         |         |         |
 |  P. |Élodie    |Inalco |✓        |✓        |✓        |         |         |         |
 |  P. |Aleksandra|Inalco |✓        |✓        |✓        |         |         |         |
-|  Q. |Zhuang    |P3     |✓        |✓        |✓        |         |         |         |
-|  Q. |Haiyan    |P3     |✓        |✓        |✓        |         |         |         |
+|  Q. |Zhuang    |P3     |✓        |✓        |✓        |✓        |         |         |
+|  Q. |Haiyan    |P3     |✓        |✓        |✓        |✓        |         |         |
 |  Q. |Yihan     |P3     |✓        |✓        |✓        |✓        |         |         |
-|  S. |Hayoung   |Inalco |✓        |✓        |✓        |         |         |         |
+|  S. |Hayoung   |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  T. |Thi Theu  |Inalco |✓        |✓        |✓        |         |         |         |
 |  W. |Qishen    |       |✓        |✓        |✓        |         |         |         |
 |  X. |Jiaqi     |P3     |✓        |✓        |✓        |         |         |         |
