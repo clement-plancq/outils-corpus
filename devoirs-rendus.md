@@ -18,10 +18,10 @@
 |  G. |Thomas    |Inalco |✓        |✓        |✓        |         |         |         |
 |  G. |Bertisa   |       |✓        |✓        |         |         |         |         |
 |  H. |Marina    |Inalco |✓        |✓        |✓        |         |         |         |
-|  H. |Santiago  |P3     |✓        |✓        |✓        |         |         |         |
+|  H. |Santiago  |P3     |✓        |✓        |✓        |✓        |         |         |
 |  H. |Xiaomin   |P3     |✓        |✓        |         |         |         |         |
 |  J. |Aurélie   |P10    |✓        |✓        |✓        |         |         |         |
-|  L. |Alexandra |Inalco |✓        |✓        |✓        |         |         |         |
+|  L. |Alexandra |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  L. |Élise     |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  L. |Lufei     |       |✓        |✓        |✓        |✓        |         |         |
 |  M. |Menel     |P10    |✓        |✓        |✓        |         |         |         |
@@ -37,7 +37,7 @@
 |  S. |Hayoung   |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  T. |Thi Theu  |Inalco |✓        |✓        |✓        |         |         |         |
 |  W. |Qishen    |       |✓        |✓        |✓        |         |         |         |
-|  X. |Jiaqi     |P3     |✓        |✓        |✓        |         |         |         |
+|  X. |Jiaqi     |P3     |✓        |✓        |✓        |✓        |         |         |
 |  X. |Jinyuan   |P10    |✓        |✓        |✓        |✓        |         |         |
 |  Y. |Mina      |Inalco |✓        |✓        |✓        |         |         |         |
 |  Z. |Xinyi     |Inalco |✓        |✓        |✓        |         |         |         |
