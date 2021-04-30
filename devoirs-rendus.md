@@ -7,8 +7,8 @@
 |  A. |Wissal    |       |✓        |✓        |✓        |         |         |         |
 |  A. |Léa       |Inalco |✓        |✓        |         |         |         |         |
 |  A. |Nora      |Inalco |✓        |✓        |✓        |✓        |         |         |
-|  A. |Étienne   |Inalco |         |✓        |✓        |         |         |         |
-|  A. |Nurul Zulaikha|Inalco |✓        |✓        |✓        |         |         |         |
+|  A. |Étienne   |Inalco |         |✓        |✓        |✓        |         |         |
+|  A. |Nurul Zulaikha|Inalco |✓        |✓        |✓        |✓        |         |         |
 |  B. |Kirsten   |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  B. |Noélie    |Inalco |✓        |✓        |✓        |         |         |         |
 |  B. |Tristan   |Inalco |✓        |✓        |✓        |         |         |         |
