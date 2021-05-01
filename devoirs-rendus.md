@@ -27,7 +27,7 @@
 |  M. |Menel     |P10    |✓        |✓        |✓        |         |         |         |
 |  M. |Gaëlle    |P3     |✓        |✓        |✓        |         |         |         |
 |  M. |Oscar     |P3     |✓        |✓        |✓        |         |         |         |
-|  N. |Julie     |       |✓        |✓        |✓        |         |         |         |
+|  N. |Julie     |       |✓        |✓        |✓        |✓        |         |         |
 |  O. |Yagmur    |P3     |✓        |✓        |✓        |         |         |         |
 |  P. |Élodie    |Inalco |✓        |✓        |✓        |         |         |         |
 |  P. |Aleksandra|Inalco |✓        |✓        |✓        |         |         |         |
