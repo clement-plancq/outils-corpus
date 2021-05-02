@@ -61,6 +61,14 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
   Pour chacun des personnages qui apparaissent au moins trois fois, vous indiquerez les verbes dont ils sont sujet.
 
 ### 3 mai 2021 (amphi 7)
+* [Notebook de prise en main de Spacy](outils_corpus-5.ipynb)
+* [Étiquetage en POS](outils_corpus-6.html)
+
+* Devoirs : Étiquetez manuellement puis avec l'étiqueteur de votre choix les trois textes suivants. Calculez la précision globale pour chacun des textes et commentez.
+[sequoia.txt](files/sequoia.txt), [bashung.txt](files/bashung.txt), [orfeo.txt](files/orfeo.txt)
+
+  Vous pourrez utiliser le [script d'évaluation de CoNLL 2018](http://universaldependencies.org/conll18/evaluation.html) (attention aux formats d'entrée), ce [script](https://github.com/dtuggener/ComparEval/blob/master/pos_tagging/eval_pos_tagger.py) ou vos propres calculs.
+
 
 ### 10 mai 2021
 
