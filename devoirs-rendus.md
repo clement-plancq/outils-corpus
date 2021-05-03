@@ -4,20 +4,20 @@
 
 | Nom | Prénom   | Univ. | cours 1 | cours 2 | cours 3 | cours 4 | cours 5 | cours 6 |
 |:---:|:--------:|:-----:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|  A. |Wissal    |       |✓        |✓        |✓        |         |         |         |
-|  A. |Léa       |Inalco |✓        |✓        |         |         |         |         |
+|  A. |Wissal    |       |✓        |✓        |✓        |✓        |         |         |
+|  A. |Léa       |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  A. |Nora      |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  A. |Étienne   |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  A. |Nurul Zulaikha|Inalco |✓        |✓        |✓        |✓        |         |         |
 |  B. |Kirsten   |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  B. |Noélie    |Inalco |✓        |✓        |✓        |         |         |         |
-|  B. |Tristan   |Inalco |✓        |✓        |✓        |         |         |         |
+|  B. |Tristan   |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  C. |Alexandra |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  D. |Caroline  |       |✓        |✓        |✓        |         |         |         |
 |  G. |Vanessa   |       |✓        |✓        |         |         |         |         |
 |  G. |Thomas    |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  G. |Bertisa   |       |✓        |✓        |         |✓        |         |         |
-|  H. |Marina    |Inalco |✓        |✓        |✓        |         |         |         |
+|  H. |Marina    |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  H. |Santiago  |P3     |✓        |✓        |✓        |✓        |         |         |
 |  H. |Xiaomin   |P3     |✓        |✓        |         |✓        |         |         |
 |  J. |Aurélie   |P10    |✓        |✓        |✓        |         |         |         |
