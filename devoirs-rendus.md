@@ -13,8 +13,8 @@
 |  B. |Noélie    |Inalco |✓        |✓        |✓        |         |         |         |
 |  B. |Tristan   |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  C. |Alexandra |Inalco |✓        |✓        |✓        |✓        |         |         |
-|  D. |Caroline  |       |✓        |✓        |✓        |         |         |         |
-|  G. |Vanessa   |       |✓        |✓        |         |         |         |         |
+|  D. |Caroline  |       |✓        |✓        |✓        |✓        |         |         |
+|  G. |Vanessa   |       |✓        |✓        |✓        |✓        |         |         |
 |  G. |Thomas    |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  G. |Bertisa   |       |✓        |✓        |         |✓        |         |         |
 |  H. |Marina    |Inalco |✓        |✓        |✓        |✓        |         |         |
