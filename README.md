@@ -69,8 +69,11 @@ Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-r
 
   Vous pourrez utiliser le [script d'évaluation de CoNLL 2018](http://universaldependencies.org/conll18/evaluation.html) (attention aux formats d'entrée), ce [script](https://github.com/dtuggener/ComparEval/blob/master/pos_tagging/eval_pos_tagger.py) ou vos propres calculs.
 
-
 ### 10 mai 2021
+* [Word embeddings](outils_corpus-7.html)
+* [notebook](outils_corpus-7.ipynb)
+
+Pas de devoirs pour cette séance 🥳
 
 ## Références
 
