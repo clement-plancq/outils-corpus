@@ -10,11 +10,11 @@
 |  A. |Étienne   |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  A. |Nurul Zulaikha|Inalco |✓        |✓        |✓        |✓        |         |         |
 |  B. |Kirsten   |Inalco |✓        |✓        |✓        |✓        |         |         |
-|  B. |Noélie    |Inalco |✓        |✓        |✓        |         |         |         |
+|  B. |Noélie    |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  B. |Tristan   |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  C. |Alexandra |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  D. |Caroline  |       |✓        |✓        |✓        |✓        |         |         |
-|  G. |Vanessa   |       |✓        |✓        |✓        |✓        |         |         |
+|  G. |Vanessa   |       |✓        |✓        |✓        |✓        |✓        |         |
 |  G. |Thomas    |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  G. |Bertisa   |       |✓        |✓        |         |✓        |         |         |
 |  H. |Marina    |Inalco |✓        |✓        |✓        |✓        |         |         |
@@ -28,7 +28,7 @@
 |  M. |Gaëlle    |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  M. |Oscar     |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  N. |Julie     |       |✓        |✓        |✓        |✓        |✓        |         |
-|  O. |Yagmur    |P3     |✓        |✓        |✓        |✓        |         |         |
+|  O. |Yagmur    |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  P. |Élodie    |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  P. |Aleksandra|Inalco |✓        |✓        |✓        |✓        |         |         |
 |  Q. |Zhuang    |P3     |✓        |✓        |✓        |✓        |         |         |
