@@ -10,7 +10,7 @@ Les lundis 15 mars, 29 mars et 3 mai nous aurons également l'amphi 7 de l'INA
 Un devoir à rendre après chaque séance, sauf la dernière.  
 6 séances, 5 devoirs, 5 notes. La note finale sera la moyenne des notes.
 
-Tous vos devoirs devront m'être parvenus avant le 11 mai 2021.
+Tous vos devoirs devront m'être parvenus avant le **17 mai** 2021.
 
 Vous pouvez vérifier que j'ai bien reçu vos devoirs sur [cette page](devoirs-rendus.md)
 
