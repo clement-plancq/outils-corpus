@@ -4,7 +4,7 @@
 
 | Nom | Prénom   | Univ. | cours 1 | cours 2 | cours 3 | cours 4 | cours 5 | cours 6 |
 |:---:|:--------:|:-----:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|  A. |Wissal    |       |✓        |✓        |✓        |✓        |         |         |
+|  A. |Wissal    |       |✓        |✓        |✓        |✓        |✓        |         |
 |  A. |Léa       |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  A. |Nora      |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  A. |Étienne   |Inalco |✓        |✓        |✓        |✓        |         |         |
@@ -20,8 +20,8 @@
 |  H. |Marina    |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  H. |Santiago  |P3     |✓        |✓        |✓        |✓        |         |         |
 |  H. |Xiaomin   |P3     |✓        |✓        |         |✓        |         |         |
-|  J. |Aurélie   |P10    |✓        |✓        |✓        |         |✓        |         |
-|  L. |Alexandra |Inalco |✓        |✓        |✓        |✓        |         |         |
+|  J. |Aurélie   |P10    |✓        |✓        |✓        |✓        |✓        |         |
+|  L. |Alexandra |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  L. |Élise     |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  L. |Lufei     |       |✓        |✓        |✓        |✓        |✓        |         |
 |  M. |Menel     |P10    |✓        |✓        |✓        |✓        |✓        |         |
@@ -39,5 +39,5 @@
 |  W. |Qishen    |       |✓        |✓        |✓        |✓        |✓        |         |
 |  X. |Jiaqi     |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  X. |Jinyuan   |P10    |✓        |✓        |✓        |✓        |✓        |         |
-|  Y. |Mina      |Inalco |✓        |✓        |✓        |✓        |         |         |
-|  Z. |Xinyi     |Inalco |✓        |✓        |✓        |✓        |         |         |
+|  Y. |Mina      |Inalco |✓        |✓        |✓        |✓        |✓        |         |
+|  Z. |Xinyi     |Inalco |✓        |✓        |✓        |✓        |✓        |         |
