@@ -7,7 +7,7 @@
 |  A. |Wissal    |       |✓        |✓        |✓        |✓        |✓        |         |
 |  A. |Léa       |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  A. |Nora      |Inalco |✓        |✓        |✓        |✓        |✓        |         |
-|  A. |Étienne   |Inalco |✓        |✓        |✓        |✓        |         |         |
+|  A. |Étienne   |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  A. |Nurul Zulaikha|Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  B. |Kirsten   |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  B. |Noélie    |Inalco |✓        |✓        |✓        |✓        |✓        |         |
@@ -16,7 +16,7 @@
 |  D. |Caroline  |       |✓        |✓        |✓        |✓        |✓        |         |
 |  G. |Vanessa   |       |✓        |✓        |✓        |✓        |✓        |         |
 |  G. |Thomas    |Inalco |✓        |✓        |✓        |✓        |✓        |         |
-|  G. |Bertisa   |       |✓        |✓        |         |✓        |         |         |
+|  G. |Bertisa   |       |✓        |✓        |✓        |✓        |✓        |         |
 |  H. |Marina    |Inalco |✓        |✓        |✓        |✓        |         |         |
 |  H. |Santiago  |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  H. |Xiaomin   |P3     |✓        |✓        |✓        |✓        |✓        |         |
