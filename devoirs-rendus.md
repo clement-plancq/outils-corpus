@@ -15,11 +15,11 @@
 |  C. |Alexandra |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  D. |Caroline  |       |✓        |✓        |✓        |✓        |✓        |         |
 |  G. |Vanessa   |       |✓        |✓        |✓        |✓        |✓        |         |
-|  G. |Thomas    |Inalco |✓        |✓        |✓        |✓        |         |         |
+|  G. |Thomas    |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  G. |Bertisa   |       |✓        |✓        |         |✓        |         |         |
 |  H. |Marina    |Inalco |✓        |✓        |✓        |✓        |         |         |
-|  H. |Santiago  |P3     |✓        |✓        |✓        |✓        |         |         |
-|  H. |Xiaomin   |P3     |✓        |✓        |         |✓        |         |         |
+|  H. |Santiago  |P3     |✓        |✓        |✓        |✓        |✓        |         |
+|  H. |Xiaomin   |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  J. |Aurélie   |P10    |✓        |✓        |✓        |✓        |✓        |         |
 |  L. |Alexandra |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  L. |Élise     |Inalco |✓        |✓        |✓        |✓        |✓        |         |
