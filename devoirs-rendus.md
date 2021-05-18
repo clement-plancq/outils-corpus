@@ -17,7 +17,7 @@
 |  G. |Vanessa   |       |✓        |✓        |✓        |✓        |✓        |         |
 |  G. |Thomas    |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  G. |Bertisa   |       |✓        |✓        |✓        |✓        |✓        |         |
-|  H. |Marina    |Inalco |✓        |✓        |✓        |✓        |         |         |
+|  H. |Marina    |Inalco |✓        |✓        |✓        |✓        |✓        |         |
 |  H. |Santiago  |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  H. |Xiaomin   |P3     |✓        |✓        |✓        |✓        |✓        |         |
 |  J. |Aurélie   |P10    |✓        |✓        |✓        |✓        |✓        |         |
